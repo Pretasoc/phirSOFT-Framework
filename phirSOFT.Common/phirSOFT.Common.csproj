@@ -54,6 +54,7 @@
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="ArrayTools.cs" />
+    <Compile Include="RingBuffer.cs" />
     <Compile Include="HashSum.cs" />
     <Compile Include="InvalidSizeException.cs" />
     <Compile Include="ItemPositions.cs" />
