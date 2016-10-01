@@ -4,14 +4,11 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
-// 
 // Created by:    Philemon Eichin
-// Created:       30.09.2016 14:39
-// Last Modified: 01.10.2016 02:03
+// Created:       01.10.2016 14:41
+// Last Modified: 01.10.2016 16:12
 // </summary>
-//  
 // --------------------------------------------------------------------------------------------------------------------
-
 using System;
 using System.Diagnostics;
 using System.Drawing;
@@ -138,7 +135,8 @@ namespace phirSOFT.Common
             if (string.IsNullOrEmpty(filter))
                 throw new ArgumentNullException(nameof(filter));
             var filters = filter.Split('|');
-            //TODO: Use a stringbuilder here.
+
+// TODO: Use a stringbuilder here.
             var reg = "(";
             for (var i = 1; i < filters.Length; i += 2)
             {
@@ -155,6 +153,7 @@ namespace phirSOFT.Common
                                     CultureInfo.InvariantCulture))
                         .Aggregate(reg, (current1, re) => current1 + re + "|");
             }
+
             reg = reg.Remove(reg.Length - 1) + ")";
             return new Regex(reg, RegexOptions.Compiled | RegexOptions.IgnoreCase);
         }
@@ -191,13 +190,14 @@ namespace phirSOFT.Common
         /// <summary>
         ///     Formats an <see cref="Array" /> as <see cref="string" />.
         /// </summary>
+        /// <typeparam name="T">The type of the array items.</typeparam>
         /// <param name="values">The Array to format.</param>
         /// <returns>An string representing the array using the default formatter. {item1, ..., itemN}</returns>
         public static string PrintArray<T>(this T[] values)
         {
             return values.PrintArray((item, position) =>
             {
-                var s = "";
+                var s = string.Empty;
 
                 if (position.HasFlag(ItemPositions.First))
                     s += "{";
@@ -216,7 +216,7 @@ namespace phirSOFT.Common
         /// <typeparam name="T">The type of the array items.</typeparam>
         /// <param name="values">The Array to format.</param>
         /// <param name="formatter">A Formatter to format an item to string.</param>
-        /// <returns>An string representing the array using <see cref="formatter" />.</returns>
+        /// <returns>An string representing the array using <paramref name="formatter"/>.</returns>
         /// <exception cref="Exception">A delegate callback throws an exception.</exception>
         public static string PrintArray<T>(this T[] values, Func<T, string> formatter)
         {
@@ -229,7 +229,7 @@ namespace phirSOFT.Common
         /// <typeparam name="T">The type of the array items.</typeparam>
         /// <param name="values">The Array to format.</param>
         /// <param name="formatter">A Formatter to format an item to string.</param>
-        /// <returns>An string representing the array using <see cref="formatter" />.</returns>
+        /// <returns>An string representing the array using <paramref name="formatter"/>.</returns>
         /// <exception cref="ArgumentNullException">
         ///     <paramref name="values" /> or <paramref name="formatter" /> is
         ///     <see langword="null" />.
@@ -275,7 +275,8 @@ namespace phirSOFT.Common
                 // but this will not happen, because the format is valid.
                 return values.PrintArray(pos => pos.ToString("X", CultureInfo.InvariantCulture));
             }
-            // If we catch a more specific exception we get still a warning we cant turn off properly.
+
+// If we catch a more specific exception we get still a warning we cant turn off properly.
             // In fact, there wont be any Exception thrown here.
             // ReSharper disable once CatchAllClause
             catch

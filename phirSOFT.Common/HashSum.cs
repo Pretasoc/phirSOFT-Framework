@@ -4,14 +4,11 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
-// 
 // Created by:    Philemon Eichin
-// Created:       30.09.2016 12:31
-// Last Modified: 01.10.2016 02:03
+// Created:       01.10.2016 14:41
+// Last Modified: 01.10.2016 16:12
 // </summary>
-//  
 // --------------------------------------------------------------------------------------------------------------------
-
 using System;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
@@ -51,7 +48,7 @@ namespace phirSOFT.Common
         ///     Creates a new hash sum by interpreting a byte array as hash sum.
         /// </summary>
         /// <param name="hash"></param>
-        /// <returns></returns>
+        /// <returns>A <see cref="HashSum{T}"/> instance where <see cref="Hash"/> is <paramref name="hash"/>.</returns>
         [SuppressMessage("Microsoft.Design", "CA1000:DoNotDeclareStaticMembersOnGenericTypes")]
         [PublicAPI]
         public static HashSum<T> FromBytes(byte[] hash)
@@ -60,7 +57,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        ///     Calculates the hash sum for a given object.
+        /// Calculates the hash sum for a given object.
         /// </summary>
         /// <param name="data">The object to calculate the hash sum for.</param>
         /// <remarks><paramref name="data" /> has to be serializeable.</remarks>
@@ -85,24 +82,26 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
+        /// Calculates the hashsum of an given buffer.
         /// </summary>
-        /// <param name="data"></param>
-        /// <returns></returns>
+        /// <param name="buffer">The buffer to calculate the hashsum for</param>
+        /// <returns>A hash sum containing the hash sum of the buffer</returns>
         [SuppressMessage("Microsoft.Design", "CA1000:DoNotDeclareStaticMembersOnGenericTypes")]
         [PublicAPI]
-        public static HashSum<T> FromObject(byte[] data)
+        public static HashSum<T> FromObject(byte[] buffer)
         {
             using (var provider = new T())
             {
                 provider.Initialize();
-                return new HashSum<T>(provider.ComputeHash(data));
+                return new HashSum<T>(provider.ComputeHash(buffer));
             }
         }
 
         /// <summary>
+        /// Calculates the hashsum of an given stream.
         /// </summary>
-        /// <param name="data"></param>
-        /// <returns></returns>
+        /// <param name="data">The stream containing the buffer to calculate the hashsum for</param>
+        /// <returns>A hash sum containing the hash sum of the buffer</returns>
         [SuppressMessage("Microsoft.Design", "CA1000:DoNotDeclareStaticMembersOnGenericTypes")]
         [PublicAPI]
         public static HashSum<T> FromObject(Stream data)
@@ -115,19 +114,20 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
+        /// Calculates the hashsum of an given buffer.
         /// </summary>
-        /// <param name="data"></param>
-        /// <param name="offset"></param>
-        /// <param name="count"></param>
-        /// <returns></returns>
+        /// <param name="buffer">The buffer to calculate the hashsum for</param>
+        /// <param name="offset">The index of the first byte to use. </param>
+        /// <param name="count">The count of byte to use for calculation</param>
+        /// <returns>A hash sum containing the hash sum of the buffer</returns>
         [SuppressMessage("Microsoft.Design", "CA1000:DoNotDeclareStaticMembersOnGenericTypes")]
         [PublicAPI]
-        public static HashSum<T> FromObject(byte[] data, int offset, int count)
+        public static HashSum<T> FromObject(byte[] buffer, int offset, int count)
         {
             using (var provider = new T())
             {
                 provider.Initialize();
-                return new HashSum<T>(provider.ComputeHash(data, offset, count));
+                return new HashSum<T>(provider.ComputeHash(buffer, offset, count));
             }
         }
 
@@ -136,7 +136,7 @@ namespace phirSOFT.Common
                  "Because HashSum is private a instance constructor is called before the member is accessed.")]
         static HashSum()
         {
-            HashSize = new T().HashSize/8;
+            HashSize = new T().HashSize / 8;
         }
 
         private HashSum(byte[] hash)
@@ -150,6 +150,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
+        /// Gets the byte array representing the hash sum.
         /// </summary>
         [SuppressMessage("Microsoft.Performance", "CA1819:PropertiesShouldNotReturnArrays",
              Justification = "The array is small enough to keep this a property.")]
@@ -159,23 +160,21 @@ namespace phirSOFT.Common
             get
             {
                 var returnValue = new byte[HashSize];
+
                 // Exceptions cannot occur because we know size and type of the source and destination array.
                 _hash.CopyTo(returnValue, 0);
                 return returnValue;
             }
         }
 
-        /// <summary>
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <inheritdoc/>
         public override bool Equals(object obj)
         {
             if (!(obj is HashSum<T>)) return false;
 
             try
             {
-                return _hash.CompareArrays(((HashSum<T>) obj)._hash);
+                return _hash.CompareArrays(((HashSum<T>)obj)._hash);
             }
             catch (RankException)
             {
@@ -184,9 +183,9 @@ namespace phirSOFT.Common
             }
         }
 
-        /// <summary>Determines whether the specified SHA1 hash sum is equal to the current SHA1 hash sum.</summary>
-        /// <returns>true if the specified SHA1 hash sum is equal to the current SHA1 hash sum; otherwise, false.</returns>
-        /// <param name="other">The SHA1 hash sum to compare with the current SHA1 hash sum. </param>
+        /// <summary>Determines whether the specified  hash sum is equal to the current  hash sum.</summary>
+        /// <returns>true if the specified  hash sum is equal to the current  hash sum; otherwise, false.</returns>
+        /// <param name="other">The  hash sum to compare with the current  hash sum. </param>
         public bool Equals(HashSum<T> other)
         {
             if (other.Hash == null)
@@ -213,30 +212,33 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
+        /// Determinates whether <paramref name="left"/> is unequal to <paramref name="right"/>.
         /// </summary>
-        /// <param name="left"></param>
-        /// <param name="right"></param>
-        /// <returns></returns>
+        /// <param name="left">The first <see cref="HashSum{T}"/> to compare.</param>
+        /// <param name="right">The second <see cref="HashSum{T}"/> to compare.</param>
+        /// <returns>True, if <paramref name="left"/> is not equal to <paramref name="right"/>, otherwise false.</returns>
         public static bool operator !=(HashSum<T> left, HashSum<T> right)
         {
             return !left.Equals(right);
         }
 
         /// <summary>
+        /// Determinates whether <paramref name="left"/> is equal to <paramref name="right"/>.
         /// </summary>
-        /// <param name="left"></param>
-        /// <param name="right"></param>
-        /// <returns></returns>
+        /// <param name="left">The first <see cref="HashSum{T}"/> to compare.</param>
+        /// <param name="right">The second <see cref="HashSum{T}"/> to compare.</param>
+        /// <returns>True, if <paramref name="left"/> is equal to <paramref name="right"/>, otherwise false.</returns>
         public static bool operator ==(HashSum<T> left, HashSum<T> right)
         {
             return left.Equals(right);
         }
 
         /// <summary>
-        ///     Umpacks the MD5 hash to an byte array.
+        ///     Umpacks the <see cref="HashSum{T}" /> to an byte array.
         /// </summary>
         /// <param name="hash">The <see cref="HashSum{T}" /> to unpack.</param>
-        public static implicit operator byte[](HashSum<T> hash) => hash._hash;
+        /// <returns>A byte array tha represents the <see cref="HashSum{T}"/>.</returns>
+        public static implicit operator byte[] (HashSum<T> hash) => hash._hash;
 
 
         /// <summary>Returns a string that represents the current object.</summary>

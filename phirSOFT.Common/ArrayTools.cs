@@ -4,16 +4,14 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
-// 
 // Created by:    Philemon Eichin
-// Created:       30.09.2016 15:13
-// Last Modified: 01.10.2016 02:03
+// Created:       01.10.2016 14:41
+// Last Modified: 01.10.2016 16:12
 // </summary>
-//  
 // --------------------------------------------------------------------------------------------------------------------
-
 using System;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using JetBrains.Annotations;
 using static phirSOFT.Strings.SR;
@@ -38,6 +36,7 @@ namespace phirSOFT.Common
         ///     Thrown, when the length of <paramref name="array1" /> is not equal to the
         ///     length of <paramref name="array2" />
         /// </exception>
+        /// <typeparam name="T">The type of the array items.</typeparam>
         [DebuggerStepThrough]
         public static bool CompareArrays<T>(this T[] array1, T[] array2)
         {
@@ -57,8 +56,9 @@ namespace phirSOFT.Common
         /// <param name="array">An <see cref="Array" /> containing strings.</param>
         /// <returns>A <see cref="string" />, thats the composition </returns>
         /// <exception cref="ArgumentNullException">Thrown, if <paramref name="array" /> is <see langword="null" /></exception>
+       
         [Obsolete("Use string.Join() instead.")]
-        public static string ConcatArray(this object[] array) => string.Join("", array);
+        public static string ConcatArray(this object[] array) => string.Join(string.Empty, array);
 
         /// <summary>
         ///     Reads a part of an generic <see cref="Array" /> and returns it.
@@ -73,6 +73,7 @@ namespace phirSOFT.Common
         /// </exception>
         /// <returns>An array containing the subarray.</returns>
         /// <exception cref="ArgumentNullException">Thrown, if <paramref name="array" /> is <see langword="null" />.</exception>
+        /// <typeparam name="T">The type of the array items.</typeparam>
         [DebuggerStepThrough]
         public static T[] GetArrayPart<T>(this T[] array, long start, long elementCount)
         {
@@ -82,12 +83,12 @@ namespace phirSOFT.Common
             if ((start < 0) || (start >= array.LongLength))
                 throw new ArgumentOutOfRangeException(nameof(start),
                     start,
-                    string.Format(ex_IndexOutOfRange, start, 0, array.LongLength - 1));
+                    string.Format(CultureInfo.InvariantCulture,ex_IndexOutOfRange, start, 0, array.LongLength - 1));
 
             if ((elementCount <= 0) || (start + elementCount > array.LongLength))
                 throw new ArgumentOutOfRangeException(nameof(elementCount),
                     elementCount,
-                    string.Format(ex_ValueOutOfRange, elementCount, 0, array.LongLength - 1 - start));
+                    string.Format(CultureInfo.InvariantCulture, ex_ValueOutOfRange, elementCount, 0, array.LongLength - 1 - start));
 
             var ret = new T[elementCount];
             for (var i = 0; i < elementCount; i++)

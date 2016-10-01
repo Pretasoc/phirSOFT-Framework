@@ -4,14 +4,11 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
-// 
 // Created by:    Philemon Eichin
-// Created:       30.09.2016 14:09
-// Last Modified: 01.10.2016 02:03
+// Created:       01.10.2016 14:41
+// Last Modified: 01.10.2016 16:12
 // </summary>
-//  
 // --------------------------------------------------------------------------------------------------------------------
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -155,6 +152,7 @@ namespace phirSOFT.Common
                 var binaryFormatter = new BinaryFormatter();
                 ret = DeserializeObject(memoryStream, binaryFormatter);
             }
+
             return ret;
         }
 

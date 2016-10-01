@@ -4,14 +4,11 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
-// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 01:09
-// Last Modified: 01.10.2016 02:03
+// Created:       01.10.2016 14:41
+// Last Modified: 01.10.2016 16:12
 // </summary>
-//  
 // --------------------------------------------------------------------------------------------------------------------
-
 using System;
 using JetBrains.Annotations;
 
@@ -30,7 +27,7 @@ namespace phirSOFT.Common
         Middle = 4,
 
         /// <summary>
-        ///     The item ist the First item.
+        ///     The item is the First item.
         /// </summary>
         First = 1,
 

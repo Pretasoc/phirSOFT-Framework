@@ -118,73 +118,98 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ex_IndexInvalid" xml:space="preserve">
+<!-- ReSharper disable once MarkupTextTypo -->
     <value>Der Index "{0}" ist nicht gültig.</value>
   </data>
   <data name="ex_IndexOutOfRange" xml:space="preserve">
+    <!-- ReSharper disable once MarkupTextTypo -->
     <value>Der Index "{0}" lag außerhalb des gültigen Bereichs. Gültiger Bereich: {1} - {2}. </value>
   </data>
+   
   <data name="ex_InvalidObjectState" xml:space="preserve">
+     <!-- ReSharper disable once MarkupTextTypo -->
     <value>Der Zustand des Objekts "{0}" ist nicht gültig.</value>
   </data>
+  
   <data name="ex_LenghtNotEqual" xml:space="preserve">
+    <!-- ReSharper disable once MarkupTextTypo -->
     <value>Die Länge der zu vergleichenden Felder stimmt nicht überein.</value>
   </data>
+
   <data name="ex_NotMd5" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Das übergebene Array stellt keine MD5 Hashsumme dar. Die Länge muss 16 sein.</value>
   </data>
   <data name="ex_ObjectLocked" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Der Zustand des Objekts "{0}" kann nicht geändert werden, da es gesperrt ist.</value>
   </data>
   <data name="ex_OriginalMessage" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>
 Ursprüngliche Meldung: {0}</value>
   </data>
   <data name="ex_ValueOutOfRange" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Der Wert "{0}" lag außerhalb des gültigen Bereichs. Gültiger Bereicht {1} - {2}.</value>
   </data>
   <data name="ex_ValueToSmall" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Der Wert "{0} ist zu klein. Er muss mindestens {1} betragen.</value>
   </data>
   <data name="msg_OutOfRange" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Die Zahl {0} liegt außerhalb des gültigen Bereiches. Bitte geben sie eine Zahl zwischen {1} und {2} an. </value>
   </data>
   <data name="pr_EnterNumber" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Bitte geben sie eine Zahl ein.</value>
   </data>
   <data name="pr_PressAnyKeyToContinue" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Drücken sie eine beliebige Tast zum Fortfahren...</value>
   </data>
   <data name="pr_PressKeyToContinue" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Drücken sie eine Taste zum Fortfahren...</value>
   </data>
   <data name="descr_BinaryFormatterLong" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Speichert Daten in einem einfachen binären Format.</value>
   </data>
   <data name="descr_BinaryFormatterShort" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Binärdatei</value>
   </data>
   <data name="descr_XMLFormatterLong" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Speichert Daten in einer XML Datei.</value>
   </data>
   <data name="descr_XMLFormatterShort" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>XML-Datei</value>
   </data>
   <data name="descr_DefaultDocumentName" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Unbenannt {0}</value>
   </data>
   <data name="ex_IncompatibleType" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Inkompatibler Typ.</value>
   </data>
   <data name="ex_NotAHash" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Das übergeben Array ist keine gültige Hashsumme.</value>
   </data>
   <data name="ex_SerialisationFailed" xml:space="preserve">
     <value>Could not serialize data.</value>
   </data>
   <data name="ex_DeserialisationFailed" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>Daten konnten nicht deserialisiert werden.</value>
   </data>
   <data name="ex_ValueNoEmptyCollection" xml:space="preserve">
+        <!-- ReSharper disable once MarkupTextTypo -->
     <value>'Values' darf keine lehre Liste sein.</value>
   </data>
 </root>
