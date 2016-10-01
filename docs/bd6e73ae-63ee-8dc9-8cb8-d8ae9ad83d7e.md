@@ -1,0 +1,21 @@
+# SerializationTools Methods
+ 
+
+The <a href="07f96595-94d5-7ac8-669d-c7a132fc682e">SerializationTools</a> type exposes the following members.
+
+
+## Methods
+&nbsp;<table><tr><th></th><th>Name</th><th>Description</th></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="44600129-5b08-f0d6-42ba-95aa0cf097f6">BulkDeserialize</a></td><td>
+Performs a bulk deserialization of multiple objects.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="c574adff-d878-6236-a026-27707d236ee1">BulkSerialize</a></td><td>
+Performs a bulk serialization of multiple objects</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="1deb0930-5a88-4c86-dfa3-e40706d4717f">DeserializeObject(Byte[])</a></td><td>
+Deserializes an object from a byte array using a <a href="http://msdn2.microsoft.com/en-us/library/y50tb888" target="_blank">BinaryFormatter</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="349ea3a1-56c4-922e-071f-8ebfeb277311">DeserializeObject(Stream, IFormatter)</a></td><td>
+Deserializes a object from a *stream* using a given *formatter*.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="893c0da4-45a1-4a30-c37e-7537e41e34d5">SerializeObject(Object)</a></td><td>
+Serializes an *value* to a byte array using a <a href="http://msdn2.microsoft.com/en-us/library/y50tb888" target="_blank">BinaryFormatter</a>.</td></tr><tr><td>![Public method](media/pubmethod.gif "Public method")![Static member](media/static.gif "Static member")</td><td><a href="52162476-9a8f-1d95-9b84-7acc636ebddb">SerializeObject(Object, Stream, IFormatter)</a></td><td>
+Serializes a *value* into a *stream* using a given *formatter*.</td></tr></table>&nbsp;
+<a href="#serializationtools-methods">Back to Top</a>
+
+## See Also
+
+
+#### Reference
+<a href="07f96595-94d5-7ac8-669d-c7a132fc682e">SerializationTools Class</a><br /><a href="e822f0a1-f524-76ce-c72d-9a62b8c4e673">phirSOFT.Common Namespace</a><br />
