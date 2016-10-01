@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
   <HelpKINode Title="ActualSize property" Url="html/797f32ff-9d3c-27e7-99f2-8982e484bff3.htm" />
+  <HelpKINode Title="Add method" Url="html/b36d0d93-b52b-da94-6a4c-512a5779e742.htm" />
   <HelpKINode Title="ArrayTools class">
     <HelpKINode Title="ArrayTools Class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
     <HelpKINode Title="about ArrayTools class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
@@ -18,9 +19,15 @@
   <HelpKINode Title="Border enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
   <HelpKINode Title="BulkDeserialize method" Url="html/44600129-5b08-f0d6-42ba-95aa0cf097f6.htm" />
   <HelpKINode Title="BulkSerialize method" Url="html/c574adff-d878-6236-a026-27707d236ee1.htm" />
+  <HelpKINode Title="Capacity property" Url="html/8327b171-a35d-033f-c67c-395cedb91b63.htm" />
+  <HelpKINode Title="Clear method" Url="html/03931983-a191-bab3-6505-b7bd1a0b4653.htm" />
   <HelpKINode Title="CompareArrays(Of T) method" Url="html/b25201ad-e1be-b6b1-8f8b-616d55415e81.htm" />
   <HelpKINode Title="CompareArrays&lt;T&gt; method" Url="html/b25201ad-e1be-b6b1-8f8b-616d55415e81.htm" />
   <HelpKINode Title="ConcatArray method" Url="html/62276b83-7859-257e-00b4-3a46ba2adb63.htm" />
+  <HelpKINode Title="Contains method" Url="html/815028af-1a4d-b459-16cd-26ec600806a0.htm" />
+  <HelpKINode Title="CopyTo method" Url="html/7eac01ec-5714-9a37-30c6-a063c1b49bf5.htm" />
+  <HelpKINode Title="Count property" Url="html/bff50098-2c09-c7b9-b322-915caf1a8464.htm" />
+  <HelpKINode Title="DefaultStrategy method" Url="html/671cfe17-fa5b-847f-5a9f-e0d2b5a8bf22.htm" />
   <HelpKINode Title="DeserializeObject method" Url="html/fe55c79b-148b-aeaf-3d5b-0716e3396bc1.htm" />
   <HelpKINode Title="Empty field" Url="html/042ec583-364c-2eec-d441-cde2cc34d0e0.htm" />
   <HelpKINode Title="Equality operator" Url="html/eaf59ea2-0813-5f79-5821-5bdb90267432.htm" />
@@ -31,6 +38,7 @@
   <HelpKINode Title="FromObject method" Url="html/c2fc0e43-c923-ab62-d86a-2ab2d035c8d4.htm" />
   <HelpKINode Title="GetArrayPart(Of T) method" Url="html/e14ef24b-8dc6-9bca-ec0e-816662bced6a.htm" />
   <HelpKINode Title="GetArrayPart&lt;T&gt; method" Url="html/e14ef24b-8dc6-9bca-ec0e-816662bced6a.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/85d6fdde-ea9c-9917-ea84-ecfc075f2dbb.htm" />
   <HelpKINode Title="GetHashCode method" Url="html/4715b7ea-1e05-3d5e-84bc-7281d8bb34bf.htm" />
   <HelpKINode Title="GetObjectData method" Url="html/fb88a97a-27a6-3841-4d3f-cbe9f3c62380.htm" />
   <HelpKINode Title="GetRelativePath method" Url="html/2dd966dc-ca40-d3c5-230a-9e66ab3f94a2.htm" />
@@ -71,6 +79,7 @@
   <HelpKINode Title="HashSum&lt;T&gt;.Hash property" Url="html/81f8061c-87ab-02e6-fee4-12713daf02f2.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.Inequality operator" Url="html/a72f6359-56f7-c5f4-b5ae-5d6a889d5aa6.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.ToString method" Url="html/a8aa671b-3c8d-19bc-b999-601f17b31443.htm" />
+  <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method" Url="html/bdb75b49-e50a-9f81-58d8-2299588c7327.htm" />
   <HelpKINode Title="Inequality operator" Url="html/a72f6359-56f7-c5f4-b5ae-5d6a889d5aa6.htm" />
   <HelpKINode Title="InsertArray(Of T) method" Url="html/f7021960-b713-5849-2b09-8e58a83a290f.htm" />
   <HelpKINode Title="InsertArray&lt;T&gt; method" Url="html/f7021960-b713-5849-2b09-8e58a83a290f.htm" />
@@ -87,6 +96,7 @@
   <HelpKINode Title="InvalidSizeException.InvalidSizeException constructor" Url="html/76e5ba0e-b0fc-f470-0c06-3b55d1ece1f3.htm" />
   <HelpKINode Title="InvalidSizeException.ParamName property" Url="html/c6b79bbf-6ac5-7018-f647-1ac3d1fb174b.htm" />
   <HelpKINode Title="InvalidSizeException.RequestedSize property" Url="html/89ae8211-fadd-152f-0fd9-ea9fed95d683.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/9bf9273f-c78b-5c5c-256c-02c74bed4261.htm" />
   <HelpKINode Title="Item property" Url="html/21511599-23e5-8725-fbbf-cb10a6c4bb7d.htm" />
   <HelpKINode Title="ItemPositions enumeration" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
   <HelpKINode Title="JoinArrays(Of T) method" Url="html/ad10c859-0998-bdfb-2982-53b66500b527.htm" />
@@ -132,11 +142,74 @@
   <HelpKINode Title="phirSOFT.Common.MapTable(Of TIn, TOut) class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
   <HelpKINode Title="phirSOFT.Common.MapTable&lt;TIn, TOut&gt; class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
   <HelpKINode Title="phirSOFT.Common.MapTableCodeDomSerializer class" Url="html/7c9e6a26-8e04-313a-a3a0-4e6f399405f4.htm" />
+  <HelpKINode Title="phirSOFT.Common.RingBuffer(Of T) class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
+  <HelpKINode Title="phirSOFT.Common.RingBuffer(Of T).RemoveStrategies class" Url="html/c305e7ae-c8a3-58e1-8af9-9308dc4896bc.htm" />
+  <HelpKINode Title="phirSOFT.Common.RingBuffer(Of T).RemoveStrategies.RemoveStrategy delegate" Url="html/ee0c027b-da0b-410b-db4e-6ca3ad4ebf2d.htm" />
+  <HelpKINode Title="phirSOFT.Common.RingBuffer&lt;T&gt; class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
+  <HelpKINode Title="phirSOFT.Common.RingBuffer&lt;T&gt;.RemoveStrategies class" Url="html/c305e7ae-c8a3-58e1-8af9-9308dc4896bc.htm" />
+  <HelpKINode Title="phirSOFT.Common.RingBuffer&lt;T&gt;.RemoveStrategies.RemoveStrategy delegate" Url="html/ee0c027b-da0b-410b-db4e-6ca3ad4ebf2d.htm" />
   <HelpKINode Title="phirSOFT.Common.SerializationTools class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
   <HelpKINode Title="phirSOFT.Common.TextTools class" Url="html/2e395fd1-d992-5ecb-0f70-e13af06aba17.htm" />
   <HelpKINode Title="PrintArray method" Url="html/9a2d6c3b-a5ef-1ae9-662b-61f82f03d42e.htm" />
   <HelpKINode Title="PrintAsNumber method" Url="html/4ddb8ce4-0dc2-34b7-8ae7-5f721e6938b4.htm" />
+  <HelpKINode Title="Remove method" Url="html/f51b88c2-7502-70cb-ac1d-f7a66da48d19.htm" />
+  <HelpKINode Title="RemoveStrategies class">
+    <HelpKINode Title="methods" Url="html/fa8b8017-8497-c4cc-6894-dcea90a30343.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveStrategy property" Url="html/fee7890c-e544-7246-36e7-36543cb7f42e.htm" />
   <HelpKINode Title="RequestedSize property" Url="html/89ae8211-fadd-152f-0fd9-ea9fed95d683.htm" />
+  <HelpKINode Title="RingBuffer(Of T) class">
+    <HelpKINode Title="RingBuffer(T) Class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
+    <HelpKINode Title="about RingBuffer(Of T) class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
+    <HelpKINode Title="constructor" Url="html/a452183d-e3d6-5c5b-3ec0-171ade25f654.htm" />
+    <HelpKINode Title="methods" Url="html/868ab797-5ebd-f569-fd2f-690dfa2163ea.htm" />
+    <HelpKINode Title="properties" Url="html/c7596972-d7ee-86da-6fa8-c1a2eecc3b5f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RingBuffer(Of T).Add method" Url="html/b36d0d93-b52b-da94-6a4c-512a5779e742.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Capacity property" Url="html/8327b171-a35d-033f-c67c-395cedb91b63.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Clear method" Url="html/03931983-a191-bab3-6505-b7bd1a0b4653.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Contains method" Url="html/815028af-1a4d-b459-16cd-26ec600806a0.htm" />
+  <HelpKINode Title="RingBuffer(Of T).CopyTo method" Url="html/7eac01ec-5714-9a37-30c6-a063c1b49bf5.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Count property" Url="html/bff50098-2c09-c7b9-b322-915caf1a8464.htm" />
+  <HelpKINode Title="RingBuffer(Of T).GetEnumerator method" Url="html/85d6fdde-ea9c-9917-ea84-ecfc075f2dbb.htm" />
+  <HelpKINode Title="RingBuffer(Of T).IEnumerable.GetEnumerator explicitly implemented method" Url="html/bdb75b49-e50a-9f81-58d8-2299588c7327.htm" />
+  <HelpKINode Title="RingBuffer(Of T).IsReadOnly property" Url="html/9bf9273f-c78b-5c5c-256c-02c74bed4261.htm" />
+  <HelpKINode Title="RingBuffer(Of T).Remove method" Url="html/f51b88c2-7502-70cb-ac1d-f7a66da48d19.htm" />
+  <HelpKINode Title="RingBuffer(Of T).RemoveStrategies class">
+    <HelpKINode Title="RingBuffer(T).RemoveStrategies Class" Url="html/c305e7ae-c8a3-58e1-8af9-9308dc4896bc.htm" />
+    <HelpKINode Title="about RingBuffer(Of T).RemoveStrategies class" Url="html/c305e7ae-c8a3-58e1-8af9-9308dc4896bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RingBuffer(Of T).RemoveStrategies.DefaultStrategy method" Url="html/671cfe17-fa5b-847f-5a9f-e0d2b5a8bf22.htm" />
+  <HelpKINode Title="RingBuffer(Of T).RemoveStrategies.RemoveStrategy delegate" Url="html/ee0c027b-da0b-410b-db4e-6ca3ad4ebf2d.htm" />
+  <HelpKINode Title="RingBuffer(Of T).RemoveStrategies.ShiftStrategy method" Url="html/066ec296-8d4c-b776-3774-a526b908507f.htm" />
+  <HelpKINode Title="RingBuffer(Of T).RemoveStrategy property" Url="html/fee7890c-e544-7246-36e7-36543cb7f42e.htm" />
+  <HelpKINode Title="RingBuffer(Of T).RingBuffer constructor" Url="html/a452183d-e3d6-5c5b-3ec0-171ade25f654.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt; class">
+    <HelpKINode Title="RingBuffer(T) Class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
+    <HelpKINode Title="about RingBuffer&lt;T&gt; class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
+    <HelpKINode Title="constructor" Url="html/a452183d-e3d6-5c5b-3ec0-171ade25f654.htm" />
+    <HelpKINode Title="methods" Url="html/868ab797-5ebd-f569-fd2f-690dfa2163ea.htm" />
+    <HelpKINode Title="properties" Url="html/c7596972-d7ee-86da-6fa8-c1a2eecc3b5f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Add method" Url="html/b36d0d93-b52b-da94-6a4c-512a5779e742.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Capacity property" Url="html/8327b171-a35d-033f-c67c-395cedb91b63.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Clear method" Url="html/03931983-a191-bab3-6505-b7bd1a0b4653.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Contains method" Url="html/815028af-1a4d-b459-16cd-26ec600806a0.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.CopyTo method" Url="html/7eac01ec-5714-9a37-30c6-a063c1b49bf5.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Count property" Url="html/bff50098-2c09-c7b9-b322-915caf1a8464.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.GetEnumerator method" Url="html/85d6fdde-ea9c-9917-ea84-ecfc075f2dbb.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.IEnumerable.GetEnumerator explicitly implemented method" Url="html/bdb75b49-e50a-9f81-58d8-2299588c7327.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.IsReadOnly property" Url="html/9bf9273f-c78b-5c5c-256c-02c74bed4261.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.Remove method" Url="html/f51b88c2-7502-70cb-ac1d-f7a66da48d19.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategies class">
+    <HelpKINode Title="RingBuffer(T).RemoveStrategies Class" Url="html/c305e7ae-c8a3-58e1-8af9-9308dc4896bc.htm" />
+    <HelpKINode Title="about RingBuffer&lt;T&gt;.RemoveStrategies class" Url="html/c305e7ae-c8a3-58e1-8af9-9308dc4896bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategies.DefaultStrategy method" Url="html/671cfe17-fa5b-847f-5a9f-e0d2b5a8bf22.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategies.RemoveStrategy delegate" Url="html/ee0c027b-da0b-410b-db4e-6ca3ad4ebf2d.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategies.ShiftStrategy method" Url="html/066ec296-8d4c-b776-3774-a526b908507f.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategy property" Url="html/fee7890c-e544-7246-36e7-36543cb7f42e.htm" />
+  <HelpKINode Title="RingBuffer&lt;T&gt;.RingBuffer constructor" Url="html/a452183d-e3d6-5c5b-3ec0-171ade25f654.htm" />
   <HelpKINode Title="SerializationTools class">
     <HelpKINode Title="SerializationTools Class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
     <HelpKINode Title="about SerializationTools class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
@@ -148,6 +221,7 @@
   <HelpKINode Title="SerializationTools.SerializeObject method" Url="html/d056bc5f-421f-3264-6721-a64ffe794d9b.htm" />
   <HelpKINode Title="Serialize method" Url="html/a4ae2d11-b1ff-45a4-12b2-7d470889dcb2.htm" />
   <HelpKINode Title="SerializeObject method" Url="html/d056bc5f-421f-3264-6721-a64ffe794d9b.htm" />
+  <HelpKINode Title="ShiftStrategy method" Url="html/066ec296-8d4c-b776-3774-a526b908507f.htm" />
   <HelpKINode Title="StringAlignmentTable property" Url="html/858c7238-359a-115c-32b1-3353c7a43a1e.htm" />
   <HelpKINode Title="TextFormatTable field" Url="html/890c0a91-20bc-a5f1-512b-b04052b79769.htm" />
   <HelpKINode Title="TextTools class">
