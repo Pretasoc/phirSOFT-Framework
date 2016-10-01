@@ -18,11 +18,11 @@
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <DocumentationSources>
-      <DocumentationSource sourceFile="phirSOFT.Common\phirSOFT.Common.csproj" xmlns="" />
-    </DocumentationSources>
+      <DocumentationSource sourceFile="phirSOFT.Common\bin\Release\phirSOFT.Common.xml" />
+<DocumentationSource sourceFile="phirSOFT.Common\bin\Release\phirSOFT.Common.dll" /></DocumentationSources>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
-    <HelpFileFormat>Markdown</HelpFileFormat>
+    <HelpFileFormat>Markdown, Website</HelpFileFormat>
     <IndentHtml>False</IndentHtml>
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
@@ -33,7 +33,7 @@
     <SyntaxFilters>C#, Visual Basic, Visual Basic Usage</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>False</RootNamespaceContainer>
-    <PresentationStyle>Markdown</PresentationStyle>
+    <PresentationStyle>VS2013</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>Guid</NamingMethod>
     <HelpTitle>phirSOFT Framework Reference</HelpTitle>
