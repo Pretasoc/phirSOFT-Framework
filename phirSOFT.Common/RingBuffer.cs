@@ -49,7 +49,7 @@ namespace phirSOFT.Common
         /// </summary>
         /// <param name="length">The amount of items this this buffer can store.</param>
         /// <param name="value">The values to fill into the buffer.</param>
-        public RingBuffer(int length, IEnumerable<T> value) : this(length)
+        public RingBuffer(long length, IEnumerable<T> value) : this(length)
         {
             if (value == null)
                 throw new ArgumentNullException(nameof(value));
