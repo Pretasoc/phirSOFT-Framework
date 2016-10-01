@@ -199,6 +199,7 @@ namespace phirSOFT.Common
             /// [A, 0, C, D, E, F, 0, 0, 0]
             /// </para>
             /// </remarks>
+            /// <seealso cref="RemoveStrategy"/>
             public static bool DefaultStrategy(T[] array, T item, long start)
             {
                 if (item.Equals(default(T)))
@@ -229,6 +230,7 @@ namespace phirSOFT.Common
             /// [A, C, D, E, F, 0, 0, 0, 0]
             /// </para>
             /// </remarks>
+            /// <seealso cref="RemoveStrategy"/>
             public static bool ShiftStrategy(T[] array, T item, long start)
             {
                 var shift = false;
