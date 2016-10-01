@@ -1,4 +1,18 @@
-﻿using System;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright company="phirSOFT" file="SharedAssemblyInfo.cs">
+// Licensed under the Apache License, Version 2.0 (the "License")
+// </copyright>
+// <summary>
+// phirSOFT Package phirSOFT.Common
+// 
+// Created by:    Philemon Eichin
+// Created:       30.09.2016 12:40
+// Last Modified: 01.10.2016 02:03
+// </summary>
+//  
+// --------------------------------------------------------------------------------------------------------------------
+
+using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
