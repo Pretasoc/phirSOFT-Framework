@@ -18,6 +18,7 @@ using System.Security;
 using System.Security.Cryptography;
 using JetBrains.Annotations;
 using phirSOFT.Strings;
+using System.ComponentModel;
 
 namespace phirSOFT.Common
 {
@@ -29,6 +30,7 @@ namespace phirSOFT.Common
     ///     parameterless constructor.
     /// </typeparam>
     [PublicAPI]
+    [ImmutableObject(true)]
     public struct HashSum<T> : IEquatable<HashSum<T>>, ICloneable where T : HashAlgorithm, new()
     {
         private readonly byte[] _hash;
