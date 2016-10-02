@@ -29,7 +29,7 @@ namespace phirSOFT.Common
     ///     parameterless constructor.
     /// </typeparam>
     [PublicAPI]
-    public struct HashSum<T> : IEquatable<HashSum<T>> where T : HashAlgorithm, new()
+    public struct HashSum<T> : IEquatable<HashSum<T>>, ICloneable where T : HashAlgorithm, new()
     {
         private readonly byte[] _hash;
 
@@ -209,6 +209,12 @@ namespace phirSOFT.Common
         public override int GetHashCode()
         {
             return _hash.GetHashCode();
+        }
+
+        /// <inheritdoc />
+        public object Clone()
+        {
+            return new HashSum<T>(Hash);
         }
 
         /// <summary>
