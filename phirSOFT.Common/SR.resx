@@ -169,8 +169,6 @@ Original message: {0}</value>
   <data name="descr_XMLFormatterShort" xml:space="preserve">
     <value>XML file</value>
   </data>
-  <!-- This resource is the same in all cultures-->
-  <!-- ReSharper disable once NotOverriddenInSpecificCulture -->
   <data name="pr_phirSOFT" xml:space="preserve">
     <value>__          __   __   __   ___ ___ 
 |__) |__| | |__) /__` /  \ |__   |  
@@ -195,5 +193,8 @@ Original message: {0}</value>
   </data>
   <data name="ex_ValueNoEmptyCollection" xml:space="preserve">
     <value>Value cannot be an empty collection.</value>
+  </data>
+  <data name="LogoLine1" xml:space="preserve">
+    <value>{0}  {1} Version: {2}</value>
   </data>
 </root>

@@ -233,6 +233,15 @@ namespace phirSOFT.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0}  {1} Version: {2}.
+        /// </summary>
+        internal static string LogoLine1 {
+            get {
+                return ResourceManager.GetString("LogoLine1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The number {0} is out of range. Please enter a number between {1} and {2}!.
         /// </summary>
         internal static string msg_OutOfRange {
