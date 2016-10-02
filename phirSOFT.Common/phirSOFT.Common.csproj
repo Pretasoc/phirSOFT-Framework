@@ -54,6 +54,11 @@
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="ArrayTools.cs" />
+    <Compile Include="ConsoleTools.cs" />
+    <Compile Include="Math\DimensionMismatchException.cs" />
+    <Compile Include="Math\Matrix.cs" />
+    <Compile Include="Math\Range.cs" />
+    <Compile Include="Math\RangeTypeConverter.cs" />
     <Compile Include="RingBuffer.cs" />
     <Compile Include="HashSum.cs" />
     <Compile Include="InvalidSizeException.cs" />
