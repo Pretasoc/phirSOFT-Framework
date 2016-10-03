@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
   <HelpKINode Title="ActualSize property" Url="html/797f32ff-9d3c-27e7-99f2-8982e484bff3.htm" />
-  <HelpKINode Title="Add method" Url="html/b36d0d93-b52b-da94-6a4c-512a5779e742.htm" />
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="Matrix(T).Add Method " Url="html/1a1700ec-7767-02cd-b6e7-05ee6dd5627f.htm" />
+    <HelpKINode Title="RingBuffer(T).Add Method " Url="html/b36d0d93-b52b-da94-6a4c-512a5779e742.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Addition operator" Url="html/0d9d584b-3ef8-5349-f51c-98eff237a64e.htm" />
   <HelpKINode Title="ArrayTools class">
     <HelpKINode Title="ArrayTools Class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
     <HelpKINode Title="about ArrayTools class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
@@ -19,19 +23,56 @@
   <HelpKINode Title="Border enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
   <HelpKINode Title="BulkDeserialize method" Url="html/44600129-5b08-f0d6-42ba-95aa0cf097f6.htm" />
   <HelpKINode Title="BulkSerialize method" Url="html/c574adff-d878-6236-a026-27707d236ee1.htm" />
+  <HelpKINode Title="CanConvertFrom method" Url="html/99f9c186-ce5f-49a1-24fc-b902578a2669.htm" />
   <HelpKINode Title="Capacity property" Url="html/8327b171-a35d-033f-c67c-395cedb91b63.htm" />
   <HelpKINode Title="Clear method" Url="html/03931983-a191-bab3-6505-b7bd1a0b4653.htm" />
+  <HelpKINode Title="Clone method" Url="html/f9550a5f-458b-90d0-9b4f-1dabb2201a7f.htm" />
+  <HelpKINode Title="Columns property" Url="html/a8a56275-3cac-4c84-24a9-9e3e12eebc6d.htm" />
   <HelpKINode Title="CompareArrays(Of T) method" Url="html/b25201ad-e1be-b6b1-8f8b-616d55415e81.htm" />
   <HelpKINode Title="CompareArrays&lt;T&gt; method" Url="html/b25201ad-e1be-b6b1-8f8b-616d55415e81.htm" />
   <HelpKINode Title="ConcatArray method" Url="html/62276b83-7859-257e-00b4-3a46ba2adb63.htm" />
+  <HelpKINode Title="ConsoleTools class">
+    <HelpKINode Title="ConsoleTools Class" Url="html/73f28299-bdf1-dcea-23c0-f3bcac5cdf7d.htm" />
+    <HelpKINode Title="about ConsoleTools class" Url="html/73f28299-bdf1-dcea-23c0-f3bcac5cdf7d.htm" />
+    <HelpKINode Title="methods" Url="html/c274db32-ea42-7040-d838-632778ca228a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConsoleTools.GetNumber method" Url="html/e55942d7-69c2-847d-b8dd-f0e08290538e.htm" />
+  <HelpKINode Title="ConsoleTools.Output method" Url="html/a2c0e888-60dc-276f-dbab-3acf8585cd4f.htm" />
+  <HelpKINode Title="ConsoleTools.Prompt method" Url="html/a6e384c3-2c69-5f36-23a2-87176126adbd.htm" />
+  <HelpKINode Title="ConsoleTools.PromptLogo method" Url="html/f7396237-b16d-2e65-2a08-5773d82392f4.htm" />
+  <HelpKINode Title="ConsoleTools.WaitForAnyKey method" Url="html/d627cf17-e791-ef2a-64ae-654d5f0d16da.htm" />
+  <HelpKINode Title="ConsoleTools.WaitForSpecificKeys method" Url="html/bd2dde3f-65a4-f325-84a0-51d09e0d688f.htm" />
+  <HelpKINode Title="ConsoleTools.WriteColor method" Url="html/8ff9c2c1-c24f-94e8-d7df-986e39e9665e.htm" />
+  <HelpKINode Title="ConsoleTools.WriteError method" Url="html/bb7e23f3-6412-a774-473f-344e308303ea.htm" />
+  <HelpKINode Title="ConsoleTools.WriteInNewLine method" Url="html/1e0e0d7b-b4a0-07da-75d6-8ef6f12f8bb4.htm" />
+  <HelpKINode Title="ConsoleTools.WriteInNewLineWithBr method" Url="html/2e57d510-9118-3ddf-f3ac-d5351b5bc3ff.htm" />
+  <HelpKINode Title="ConsoleTools.WriteLineColor method" Url="html/781a7234-5f1d-ea1c-2e44-b621176de85f.htm" />
   <HelpKINode Title="Contains method" Url="html/815028af-1a4d-b459-16cd-26ec600806a0.htm" />
+  <HelpKINode Title="ConvertFrom method" Url="html/ac9b6847-4316-1de7-dff1-fbe13d9117dd.htm" />
   <HelpKINode Title="CopyTo method" Url="html/7eac01ec-5714-9a37-30c6-a063c1b49bf5.htm" />
   <HelpKINode Title="Count property" Url="html/bff50098-2c09-c7b9-b322-915caf1a8464.htm" />
   <HelpKINode Title="DefaultStrategy method" Url="html/671cfe17-fa5b-847f-5a9f-e0d2b5a8bf22.htm" />
   <HelpKINode Title="DeserializeObject method" Url="html/fe55c79b-148b-aeaf-3d5b-0716e3396bc1.htm" />
+  <HelpKINode Title="DimensionMismatchException class">
+    <HelpKINode Title="DimensionMismatchException Class" Url="html/acec44d7-37ee-6dad-f3f1-a3b0b1f2e7c0.htm" />
+    <HelpKINode Title="about DimensionMismatchException class" Url="html/acec44d7-37ee-6dad-f3f1-a3b0b1f2e7c0.htm" />
+    <HelpKINode Title="constructor" Url="html/8b13db00-2133-dac7-5862-9f08961c30b0.htm" />
+    <HelpKINode Title="events" Url="html/206da498-ee74-42c5-e546-fb3b430ad17b.htm" />
+    <HelpKINode Title="methods" Url="html/448a45dc-0fe3-17d5-5515-75cf9272634e.htm" />
+    <HelpKINode Title="properties" Url="html/79841f67-8c45-8265-7fd5-820d13a1fb70.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DimensionMismatchException.DimensionMismatchException constructor" Url="html/8b13db00-2133-dac7-5862-9f08961c30b0.htm" />
   <HelpKINode Title="Empty field" Url="html/042ec583-364c-2eec-d441-cde2cc34d0e0.htm" />
-  <HelpKINode Title="Equality operator" Url="html/eaf59ea2-0813-5f79-5821-5bdb90267432.htm" />
-  <HelpKINode Title="Equals method" Url="html/f227b978-8cdf-bfd7-bf4f-0b12b7f42748.htm" />
+  <HelpKINode Title="Equality operator">
+    <HelpKINode Title="HashSum(T).Equality Operator " Url="html/eaf59ea2-0813-5f79-5821-5bdb90267432.htm" />
+    <HelpKINode Title="Matrix(T).Equality Operator " Url="html/32b1a743-4ea0-738e-e66f-7feea8b38632.htm" />
+    <HelpKINode Title="Range(T).Equality Operator " Url="html/cbf0d008-d161-56cb-c47c-5b4063087a86.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="HashSum(T).Equals Method " Url="html/f227b978-8cdf-bfd7-bf4f-0b12b7f42748.htm" />
+    <HelpKINode Title="Matrix(T).Equals Method " Url="html/934ec85f-4e11-4d16-b04b-81f560c90c4f.htm" />
+    <HelpKINode Title="Range(T).Equals Method " Url="html/5afd09f2-5636-4e7d-c04c-568a5d4a95e8.htm" />
+  </HelpKINode>
   <HelpKINode Title="FilterToRegularExpression method" Url="html/5ac71d60-d7b3-68bf-5467-401bdef4217f.htm" />
   <HelpKINode Title="First enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
   <HelpKINode Title="FromBytes method" Url="html/6f4b083c-8e77-0f3b-8ef0-7d9543c62120.htm" />
@@ -39,7 +80,12 @@
   <HelpKINode Title="GetArrayPart(Of T) method" Url="html/e14ef24b-8dc6-9bca-ec0e-816662bced6a.htm" />
   <HelpKINode Title="GetArrayPart&lt;T&gt; method" Url="html/e14ef24b-8dc6-9bca-ec0e-816662bced6a.htm" />
   <HelpKINode Title="GetEnumerator method" Url="html/85d6fdde-ea9c-9917-ea84-ecfc075f2dbb.htm" />
-  <HelpKINode Title="GetHashCode method" Url="html/4715b7ea-1e05-3d5e-84bc-7281d8bb34bf.htm" />
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="HashSum(T).GetHashCode Method " Url="html/4715b7ea-1e05-3d5e-84bc-7281d8bb34bf.htm" />
+    <HelpKINode Title="Matrix(T).GetHashCode Method " Url="html/ba9f4653-b2a7-d0db-52b1-0c674edac28c.htm" />
+    <HelpKINode Title="Range(T).GetHashCode Method " Url="html/9f0f3dd7-c724-0229-f3dd-e07ce3b73729.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetNumber method" Url="html/e55942d7-69c2-847d-b8dd-f0e08290538e.htm" />
   <HelpKINode Title="GetObjectData method" Url="html/fb88a97a-27a6-3841-4d3f-cbe9f3c62380.htm" />
   <HelpKINode Title="GetRelativePath method" Url="html/2dd966dc-ca40-d3c5-230a-9e66ab3f94a2.htm" />
   <HelpKINode Title="Hash property" Url="html/81f8061c-87ab-02e6-fee4-12713daf02f2.htm" />
@@ -52,6 +98,7 @@
     <HelpKINode Title="properties" Url="html/bdd3ebc6-0a82-7c32-60be-80ff35c1b8e5.htm" />
   </HelpKINode>
   <HelpKINode Title="HashSum(Of T) to Byte() conversion" Url="html/38306d79-2074-f376-eab4-baf16eb7e8f9.htm" />
+  <HelpKINode Title="HashSum(Of T).Clone method" Url="html/f9550a5f-458b-90d0-9b4f-1dabb2201a7f.htm" />
   <HelpKINode Title="HashSum(Of T).Empty field" Url="html/042ec583-364c-2eec-d441-cde2cc34d0e0.htm" />
   <HelpKINode Title="HashSum(Of T).Equality operator" Url="html/eaf59ea2-0813-5f79-5821-5bdb90267432.htm" />
   <HelpKINode Title="HashSum(Of T).Equals method" Url="html/f227b978-8cdf-bfd7-bf4f-0b12b7f42748.htm" />
@@ -70,6 +117,7 @@
     <HelpKINode Title="properties" Url="html/bdd3ebc6-0a82-7c32-60be-80ff35c1b8e5.htm" />
   </HelpKINode>
   <HelpKINode Title="HashSum&lt;T&gt; to Byte[] conversion" Url="html/38306d79-2074-f376-eab4-baf16eb7e8f9.htm" />
+  <HelpKINode Title="HashSum&lt;T&gt;.Clone method" Url="html/f9550a5f-458b-90d0-9b4f-1dabb2201a7f.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.Empty field" Url="html/042ec583-364c-2eec-d441-cde2cc34d0e0.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.Equality operator" Url="html/eaf59ea2-0813-5f79-5821-5bdb90267432.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.Equals method" Url="html/f227b978-8cdf-bfd7-bf4f-0b12b7f42748.htm" />
@@ -79,8 +127,13 @@
   <HelpKINode Title="HashSum&lt;T&gt;.Hash property" Url="html/81f8061c-87ab-02e6-fee4-12713daf02f2.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.Inequality operator" Url="html/a72f6359-56f7-c5f4-b5ae-5d6a889d5aa6.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.ToString method" Url="html/a8aa671b-3c8d-19bc-b999-601f17b31443.htm" />
+  <HelpKINode Title="IdentityMatrix method" Url="html/360ef886-98bc-de61-b98c-a94d89974091.htm" />
   <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method" Url="html/bdb75b49-e50a-9f81-58d8-2299588c7327.htm" />
-  <HelpKINode Title="Inequality operator" Url="html/a72f6359-56f7-c5f4-b5ae-5d6a889d5aa6.htm" />
+  <HelpKINode Title="Inequality operator">
+    <HelpKINode Title="HashSum(T).Inequality Operator " Url="html/a72f6359-56f7-c5f4-b5ae-5d6a889d5aa6.htm" />
+    <HelpKINode Title="Matrix(T).Inequality Operator " Url="html/e354dd76-a444-e854-351f-6f6869c2b2ab.htm" />
+    <HelpKINode Title="Range(T).Inequality Operator " Url="html/31c41312-21f3-91fa-195b-8c91b75ec7b2.htm" />
+  </HelpKINode>
   <HelpKINode Title="InsertArray(Of T) method" Url="html/f7021960-b713-5849-2b09-8e58a83a290f.htm" />
   <HelpKINode Title="InsertArray&lt;T&gt; method" Url="html/f7021960-b713-5849-2b09-8e58a83a290f.htm" />
   <HelpKINode Title="InvalidSizeException class">
@@ -96,8 +149,12 @@
   <HelpKINode Title="InvalidSizeException.InvalidSizeException constructor" Url="html/76e5ba0e-b0fc-f470-0c06-3b55d1ece1f3.htm" />
   <HelpKINode Title="InvalidSizeException.ParamName property" Url="html/c6b79bbf-6ac5-7018-f647-1ac3d1fb174b.htm" />
   <HelpKINode Title="InvalidSizeException.RequestedSize property" Url="html/89ae8211-fadd-152f-0fd9-ea9fed95d683.htm" />
+  <HelpKINode Title="IsInside method" Url="html/614fbe76-6869-486b-298a-38cf1e16ee07.htm" />
   <HelpKINode Title="IsReadOnly property" Url="html/9bf9273f-c78b-5c5c-256c-02c74bed4261.htm" />
-  <HelpKINode Title="Item property" Url="html/21511599-23e5-8725-fbbf-cb10a6c4bb7d.htm" />
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="MapTable(TIn, TOut).Item Property " Url="html/21511599-23e5-8725-fbbf-cb10a6c4bb7d.htm" />
+    <HelpKINode Title="Matrix(T).Item Property " Url="html/5a954098-ad11-70f6-fdae-e3d75b1f9ace.htm" />
+  </HelpKINode>
   <HelpKINode Title="ItemPositions enumeration" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
   <HelpKINode Title="JoinArrays(Of T) method" Url="html/ad10c859-0998-bdfb-2982-53b66500b527.htm" />
   <HelpKINode Title="JoinArrays&lt;T&gt; method" Url="html/ad10c859-0998-bdfb-2982-53b66500b527.htm" />
@@ -130,11 +187,61 @@
   </HelpKINode>
   <HelpKINode Title="MapTableCodeDomSerializer.MapTableCodeDomSerializer constructor" Url="html/6467f149-bc1a-1b96-5eb1-6ce5a44a6318.htm" />
   <HelpKINode Title="MapTableCodeDomSerializer.Serialize method" Url="html/a4ae2d11-b1ff-45a4-12b2-7d470889dcb2.htm" />
+  <HelpKINode Title="Matrix(Of T) class">
+    <HelpKINode Title="Matrix(T) Class" Url="html/28333476-c677-9cb6-a83c-9616c1b8d31c.htm" />
+    <HelpKINode Title="about Matrix(Of T) class" Url="html/28333476-c677-9cb6-a83c-9616c1b8d31c.htm" />
+    <HelpKINode Title="constructor" Url="html/0b40a122-3405-0fc0-eef9-161c84f6514e.htm" />
+    <HelpKINode Title="methods" Url="html/f038e7f4-9030-1375-64a7-4ccfa2651d87.htm" />
+    <HelpKINode Title="operators" Url="html/d401ceeb-377a-b2a5-ae3d-27910ad1ed05.htm" />
+    <HelpKINode Title="properties" Url="html/bc5b5c3c-acd7-6643-ece3-fb63b9794bd2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Matrix(Of T).Add method" Url="html/1a1700ec-7767-02cd-b6e7-05ee6dd5627f.htm" />
+  <HelpKINode Title="Matrix(Of T).Addition operator" Url="html/0d9d584b-3ef8-5349-f51c-98eff237a64e.htm" />
+  <HelpKINode Title="Matrix(Of T).Columns property" Url="html/a8a56275-3cac-4c84-24a9-9e3e12eebc6d.htm" />
+  <HelpKINode Title="Matrix(Of T).Equality operator" Url="html/32b1a743-4ea0-738e-e66f-7feea8b38632.htm" />
+  <HelpKINode Title="Matrix(Of T).Equals method" Url="html/934ec85f-4e11-4d16-b04b-81f560c90c4f.htm" />
+  <HelpKINode Title="Matrix(Of T).GetHashCode method" Url="html/ba9f4653-b2a7-d0db-52b1-0c674edac28c.htm" />
+  <HelpKINode Title="Matrix(Of T).IdentityMatrix method" Url="html/360ef886-98bc-de61-b98c-a94d89974091.htm" />
+  <HelpKINode Title="Matrix(Of T).Inequality operator" Url="html/e354dd76-a444-e854-351f-6f6869c2b2ab.htm" />
+  <HelpKINode Title="Matrix(Of T).Item property" Url="html/5a954098-ad11-70f6-fdae-e3d75b1f9ace.htm" />
+  <HelpKINode Title="Matrix(Of T).Matrix constructor" Url="html/0b40a122-3405-0fc0-eef9-161c84f6514e.htm" />
+  <HelpKINode Title="Matrix(Of T).Multiply method" Url="html/7f879477-1356-b031-b84e-66357eaef0de.htm" />
+  <HelpKINode Title="Matrix(Of T).Multiply operator" Url="html/9c127391-c731-a516-6b52-f47f0ee868b3.htm" />
+  <HelpKINode Title="Matrix(Of T).Rows property" Url="html/97b0de81-d299-2861-0268-b8dcd8e81347.htm" />
+  <HelpKINode Title="Matrix(Of T).ZeroMatrix method" Url="html/32f93960-44ef-a3bd-070e-456626441583.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt; class">
+    <HelpKINode Title="Matrix(T) Class" Url="html/28333476-c677-9cb6-a83c-9616c1b8d31c.htm" />
+    <HelpKINode Title="about Matrix&lt;T&gt; class" Url="html/28333476-c677-9cb6-a83c-9616c1b8d31c.htm" />
+    <HelpKINode Title="constructor" Url="html/0b40a122-3405-0fc0-eef9-161c84f6514e.htm" />
+    <HelpKINode Title="methods" Url="html/f038e7f4-9030-1375-64a7-4ccfa2651d87.htm" />
+    <HelpKINode Title="operators" Url="html/d401ceeb-377a-b2a5-ae3d-27910ad1ed05.htm" />
+    <HelpKINode Title="properties" Url="html/bc5b5c3c-acd7-6643-ece3-fb63b9794bd2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Matrix&lt;T&gt;.Add method" Url="html/1a1700ec-7767-02cd-b6e7-05ee6dd5627f.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Addition operator" Url="html/0d9d584b-3ef8-5349-f51c-98eff237a64e.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Columns property" Url="html/a8a56275-3cac-4c84-24a9-9e3e12eebc6d.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Equality operator" Url="html/32b1a743-4ea0-738e-e66f-7feea8b38632.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Equals method" Url="html/934ec85f-4e11-4d16-b04b-81f560c90c4f.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.GetHashCode method" Url="html/ba9f4653-b2a7-d0db-52b1-0c674edac28c.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.IdentityMatrix method" Url="html/360ef886-98bc-de61-b98c-a94d89974091.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Inequality operator" Url="html/e354dd76-a444-e854-351f-6f6869c2b2ab.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Item property" Url="html/5a954098-ad11-70f6-fdae-e3d75b1f9ace.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Matrix constructor" Url="html/0b40a122-3405-0fc0-eef9-161c84f6514e.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Multiply method" Url="html/7f879477-1356-b031-b84e-66357eaef0de.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Multiply operator" Url="html/9c127391-c731-a516-6b52-f47f0ee868b3.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.Rows property" Url="html/97b0de81-d299-2861-0268-b8dcd8e81347.htm" />
+  <HelpKINode Title="Matrix&lt;T&gt;.ZeroMatrix method" Url="html/32f93960-44ef-a3bd-070e-456626441583.htm" />
+  <HelpKINode Title="Maximum property" Url="html/3ef81c28-913a-0a46-26ef-03447e320810.htm" />
   <HelpKINode Title="Middle enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
+  <HelpKINode Title="Minimum property" Url="html/6d4262ec-e333-8efc-1796-713526e2d3b7.htm" />
+  <HelpKINode Title="Multiply method" Url="html/7f879477-1356-b031-b84e-66357eaef0de.htm" />
+  <HelpKINode Title="Multiply operator" Url="html/9c127391-c731-a516-6b52-f47f0ee868b3.htm" />
   <HelpKINode Title="None enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
+  <HelpKINode Title="Output method" Url="html/a2c0e888-60dc-276f-dbab-3acf8585cd4f.htm" />
   <HelpKINode Title="ParamName property" Url="html/c6b79bbf-6ac5-7018-f647-1ac3d1fb174b.htm" />
   <HelpKINode Title="phirSOFT.Common namespace" Url="html/e822f0a1-f524-76ce-c72d-9a62b8c4e673.htm" />
   <HelpKINode Title="phirSOFT.Common.ArrayTools class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
+  <HelpKINode Title="phirSOFT.Common.ConsoleTools class" Url="html/73f28299-bdf1-dcea-23c0-f3bcac5cdf7d.htm" />
   <HelpKINode Title="phirSOFT.Common.HashSum(Of T) structure" Url="html/2ba12663-0b38-f3a5-8601-53777204340c.htm" />
   <HelpKINode Title="phirSOFT.Common.HashSum&lt;T&gt; structure" Url="html/2ba12663-0b38-f3a5-8601-53777204340c.htm" />
   <HelpKINode Title="phirSOFT.Common.InvalidSizeException class" Url="html/e2f2c151-0226-3f11-1ac9-0d2c03ac0c3c.htm" />
@@ -142,6 +249,13 @@
   <HelpKINode Title="phirSOFT.Common.MapTable(Of TIn, TOut) class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
   <HelpKINode Title="phirSOFT.Common.MapTable&lt;TIn, TOut&gt; class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
   <HelpKINode Title="phirSOFT.Common.MapTableCodeDomSerializer class" Url="html/7c9e6a26-8e04-313a-a3a0-4e6f399405f4.htm" />
+  <HelpKINode Title="phirSOFT.Common.Math namespace" Url="html/a8a87001-e14c-b2a7-7eaa-d6e80bc61717.htm" />
+  <HelpKINode Title="phirSOFT.Common.Math.DimensionMismatchException class" Url="html/acec44d7-37ee-6dad-f3f1-a3b0b1f2e7c0.htm" />
+  <HelpKINode Title="phirSOFT.Common.Math.Matrix(Of T) class" Url="html/28333476-c677-9cb6-a83c-9616c1b8d31c.htm" />
+  <HelpKINode Title="phirSOFT.Common.Math.Matrix&lt;T&gt; class" Url="html/28333476-c677-9cb6-a83c-9616c1b8d31c.htm" />
+  <HelpKINode Title="phirSOFT.Common.Math.Range(Of T) structure" Url="html/55778fdd-a520-f007-cc98-c98a182fe583.htm" />
+  <HelpKINode Title="phirSOFT.Common.Math.Range&lt;T&gt; structure" Url="html/55778fdd-a520-f007-cc98-c98a182fe583.htm" />
+  <HelpKINode Title="phirSOFT.Common.Math.RangeTypeConverter class" Url="html/cc1356b3-776b-adb8-f182-20aa8737aa21.htm" />
   <HelpKINode Title="phirSOFT.Common.RingBuffer(Of T) class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
   <HelpKINode Title="phirSOFT.Common.RingBuffer(Of T).RemoveStrategies class" Url="html/c305e7ae-c8a3-58e1-8af9-9308dc4896bc.htm" />
   <HelpKINode Title="phirSOFT.Common.RingBuffer(Of T).RemoveStrategies.RemoveStrategy delegate" Url="html/ee0c027b-da0b-410b-db4e-6ca3ad4ebf2d.htm" />
@@ -152,6 +266,51 @@
   <HelpKINode Title="phirSOFT.Common.TextTools class" Url="html/2e395fd1-d992-5ecb-0f70-e13af06aba17.htm" />
   <HelpKINode Title="PrintArray method" Url="html/9a2d6c3b-a5ef-1ae9-662b-61f82f03d42e.htm" />
   <HelpKINode Title="PrintAsNumber method" Url="html/4ddb8ce4-0dc2-34b7-8ae7-5f721e6938b4.htm" />
+  <HelpKINode Title="Prompt method" Url="html/a6e384c3-2c69-5f36-23a2-87176126adbd.htm" />
+  <HelpKINode Title="PromptLogo method" Url="html/f7396237-b16d-2e65-2a08-5773d82392f4.htm" />
+  <HelpKINode Title="Range(Of T) structure">
+    <HelpKINode Title="Range(T) Structure" Url="html/55778fdd-a520-f007-cc98-c98a182fe583.htm" />
+    <HelpKINode Title="about Range(Of T) structure" Url="html/55778fdd-a520-f007-cc98-c98a182fe583.htm" />
+    <HelpKINode Title="constructor" Url="html/72be4370-f5e2-33b9-0382-51b89c4d0ff2.htm" />
+    <HelpKINode Title="methods" Url="html/5dc1cada-d809-4de5-164b-2ff221389379.htm" />
+    <HelpKINode Title="operators" Url="html/27572c65-b104-3287-b399-43fd6f08faf4.htm" />
+    <HelpKINode Title="properties" Url="html/04c151f8-f255-8669-f5ac-681a1e72110b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Range(Of T).Equality operator" Url="html/cbf0d008-d161-56cb-c47c-5b4063087a86.htm" />
+  <HelpKINode Title="Range(Of T).Equals method" Url="html/5afd09f2-5636-4e7d-c04c-568a5d4a95e8.htm" />
+  <HelpKINode Title="Range(Of T).GetHashCode method" Url="html/9f0f3dd7-c724-0229-f3dd-e07ce3b73729.htm" />
+  <HelpKINode Title="Range(Of T).Inequality operator" Url="html/31c41312-21f3-91fa-195b-8c91b75ec7b2.htm" />
+  <HelpKINode Title="Range(Of T).IsInside method" Url="html/614fbe76-6869-486b-298a-38cf1e16ee07.htm" />
+  <HelpKINode Title="Range(Of T).Maximum property" Url="html/3ef81c28-913a-0a46-26ef-03447e320810.htm" />
+  <HelpKINode Title="Range(Of T).Minimum property" Url="html/6d4262ec-e333-8efc-1796-713526e2d3b7.htm" />
+  <HelpKINode Title="Range(Of T).Range constructor" Url="html/72be4370-f5e2-33b9-0382-51b89c4d0ff2.htm" />
+  <HelpKINode Title="Range(Of T).ToString method" Url="html/f66d9652-6d54-8295-4659-313c82655e91.htm" />
+  <HelpKINode Title="Range&lt;T&gt; structure">
+    <HelpKINode Title="Range(T) Structure" Url="html/55778fdd-a520-f007-cc98-c98a182fe583.htm" />
+    <HelpKINode Title="about Range&lt;T&gt; structure" Url="html/55778fdd-a520-f007-cc98-c98a182fe583.htm" />
+    <HelpKINode Title="constructor" Url="html/72be4370-f5e2-33b9-0382-51b89c4d0ff2.htm" />
+    <HelpKINode Title="methods" Url="html/5dc1cada-d809-4de5-164b-2ff221389379.htm" />
+    <HelpKINode Title="operators" Url="html/27572c65-b104-3287-b399-43fd6f08faf4.htm" />
+    <HelpKINode Title="properties" Url="html/04c151f8-f255-8669-f5ac-681a1e72110b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Range&lt;T&gt;.Equality operator" Url="html/cbf0d008-d161-56cb-c47c-5b4063087a86.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.Equals method" Url="html/5afd09f2-5636-4e7d-c04c-568a5d4a95e8.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.GetHashCode method" Url="html/9f0f3dd7-c724-0229-f3dd-e07ce3b73729.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.Inequality operator" Url="html/31c41312-21f3-91fa-195b-8c91b75ec7b2.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.IsInside method" Url="html/614fbe76-6869-486b-298a-38cf1e16ee07.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.Maximum property" Url="html/3ef81c28-913a-0a46-26ef-03447e320810.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.Minimum property" Url="html/6d4262ec-e333-8efc-1796-713526e2d3b7.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.Range constructor" Url="html/72be4370-f5e2-33b9-0382-51b89c4d0ff2.htm" />
+  <HelpKINode Title="Range&lt;T&gt;.ToString method" Url="html/f66d9652-6d54-8295-4659-313c82655e91.htm" />
+  <HelpKINode Title="RangeTypeConverter class">
+    <HelpKINode Title="RangeTypeConverter Class" Url="html/cc1356b3-776b-adb8-f182-20aa8737aa21.htm" />
+    <HelpKINode Title="about RangeTypeConverter class" Url="html/cc1356b3-776b-adb8-f182-20aa8737aa21.htm" />
+    <HelpKINode Title="constructor" Url="html/c87527fe-52bd-418a-c1be-2329b035b25b.htm" />
+    <HelpKINode Title="methods" Url="html/76bcc7e9-ded2-a151-c6a7-fb6253878b4f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RangeTypeConverter.CanConvertFrom method" Url="html/99f9c186-ce5f-49a1-24fc-b902578a2669.htm" />
+  <HelpKINode Title="RangeTypeConverter.ConvertFrom method" Url="html/ac9b6847-4316-1de7-dff1-fbe13d9117dd.htm" />
+  <HelpKINode Title="RangeTypeConverter.RangeTypeConverter constructor" Url="html/c87527fe-52bd-418a-c1be-2329b035b25b.htm" />
   <HelpKINode Title="Remove method" Url="html/f51b88c2-7502-70cb-ac1d-f7a66da48d19.htm" />
   <HelpKINode Title="RemoveStrategies class">
     <HelpKINode Title="methods" Url="html/fa8b8017-8497-c4cc-6894-dcea90a30343.htm" />
@@ -210,6 +369,7 @@
   <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategies.ShiftStrategy method" Url="html/066ec296-8d4c-b776-3774-a526b908507f.htm" />
   <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategy property" Url="html/fee7890c-e544-7246-36e7-36543cb7f42e.htm" />
   <HelpKINode Title="RingBuffer&lt;T&gt;.RingBuffer constructor" Url="html/a452183d-e3d6-5c5b-3ec0-171ade25f654.htm" />
+  <HelpKINode Title="Rows property" Url="html/97b0de81-d299-2861-0268-b8dcd8e81347.htm" />
   <HelpKINode Title="SerializationTools class">
     <HelpKINode Title="SerializationTools Class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
     <HelpKINode Title="about SerializationTools class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
@@ -223,11 +383,10 @@
   <HelpKINode Title="SerializeObject method" Url="html/d056bc5f-421f-3264-6721-a64ffe794d9b.htm" />
   <HelpKINode Title="ShiftStrategy method" Url="html/066ec296-8d4c-b776-3774-a526b908507f.htm" />
   <HelpKINode Title="StringAlignmentTable property" Url="html/858c7238-359a-115c-32b1-3353c7a43a1e.htm" />
-  <HelpKINode Title="TextFormatTable field" Url="html/890c0a91-20bc-a5f1-512b-b04052b79769.htm" />
+  <HelpKINode Title="TextFormatTable property" Url="html/7b68a698-6d87-ad36-252e-c8970a3376e7.htm" />
   <HelpKINode Title="TextTools class">
     <HelpKINode Title="TextTools Class" Url="html/2e395fd1-d992-5ecb-0f70-e13af06aba17.htm" />
     <HelpKINode Title="about TextTools class" Url="html/2e395fd1-d992-5ecb-0f70-e13af06aba17.htm" />
-    <HelpKINode Title="fields" Url="html/b9ed15a0-6299-0dfd-276e-f080ddfba57a.htm" />
     <HelpKINode Title="methods" Url="html/761f9945-700b-e8ca-0b0e-00f0e9a1bf20.htm" />
     <HelpKINode Title="properties" Url="html/ccde9cf8-fdf0-48e9-a4b9-cbbfa57093cc.htm" />
   </HelpKINode>
@@ -236,12 +395,23 @@
   <HelpKINode Title="TextTools.PrintArray method" Url="html/9a2d6c3b-a5ef-1ae9-662b-61f82f03d42e.htm" />
   <HelpKINode Title="TextTools.PrintAsNumber method" Url="html/4ddb8ce4-0dc2-34b7-8ae7-5f721e6938b4.htm" />
   <HelpKINode Title="TextTools.StringAlignmentTable property" Url="html/858c7238-359a-115c-32b1-3353c7a43a1e.htm" />
-  <HelpKINode Title="TextTools.TextFormatTable field" Url="html/890c0a91-20bc-a5f1-512b-b04052b79769.htm" />
+  <HelpKINode Title="TextTools.TextFormatTable property" Url="html/7b68a698-6d87-ad36-252e-c8970a3376e7.htm" />
   <HelpKINode Title="TextTools.TranslateAlignment method" Url="html/c737d82e-337c-0923-0e44-66b88234597d.htm" />
   <HelpKINode Title="TextTools.TranslateAlignmentToTextFormatFlags method" Url="html/d82e1b2f-52bb-506b-5e8c-f8686f4dc5a0.htm" />
   <HelpKINode Title="TextTools.TranslateTrimmingToTextFormatFlag method" Url="html/e79f8827-3303-f74e-fe85-ce8352fb8c8b.htm" />
-  <HelpKINode Title="ToString method" Url="html/a8aa671b-3c8d-19bc-b999-601f17b31443.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="HashSum(T).ToString Method " Url="html/a8aa671b-3c8d-19bc-b999-601f17b31443.htm" />
+    <HelpKINode Title="Range(T).ToString Method " Url="html/f66d9652-6d54-8295-4659-313c82655e91.htm" />
+  </HelpKINode>
   <HelpKINode Title="TranslateAlignment method" Url="html/c737d82e-337c-0923-0e44-66b88234597d.htm" />
   <HelpKINode Title="TranslateAlignmentToTextFormatFlags method" Url="html/d82e1b2f-52bb-506b-5e8c-f8686f4dc5a0.htm" />
   <HelpKINode Title="TranslateTrimmingToTextFormatFlag method" Url="html/e79f8827-3303-f74e-fe85-ce8352fb8c8b.htm" />
+  <HelpKINode Title="WaitForAnyKey method" Url="html/d627cf17-e791-ef2a-64ae-654d5f0d16da.htm" />
+  <HelpKINode Title="WaitForSpecificKeys method" Url="html/bd2dde3f-65a4-f325-84a0-51d09e0d688f.htm" />
+  <HelpKINode Title="WriteColor method" Url="html/8ff9c2c1-c24f-94e8-d7df-986e39e9665e.htm" />
+  <HelpKINode Title="WriteError method" Url="html/bb7e23f3-6412-a774-473f-344e308303ea.htm" />
+  <HelpKINode Title="WriteInNewLine method" Url="html/1e0e0d7b-b4a0-07da-75d6-8ef6f12f8bb4.htm" />
+  <HelpKINode Title="WriteInNewLineWithBr method" Url="html/2e57d510-9118-3ddf-f3ac-d5351b5bc3ff.htm" />
+  <HelpKINode Title="WriteLineColor method" Url="html/781a7234-5f1d-ea1c-2e44-b621176de85f.htm" />
+  <HelpKINode Title="ZeroMatrix method" Url="html/32f93960-44ef-a3bd-070e-456626441583.htm" />
 </HelpKI>
