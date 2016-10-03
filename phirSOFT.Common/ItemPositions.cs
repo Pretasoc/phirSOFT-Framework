@@ -4,13 +4,16 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 14:41
-// Last Modified: 01.10.2016 16:12
+// Created:       01.10.2016 17:16
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
-using System;
+
 using JetBrains.Annotations;
+using System;
 
 namespace phirSOFT.Common
 {
@@ -35,7 +38,6 @@ namespace phirSOFT.Common
         ///     The item is the Last item.
         /// </summary>
         Last = 2,
-
 
         /// <summary>
         ///     Default value.

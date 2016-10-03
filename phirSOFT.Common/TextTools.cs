@@ -4,11 +4,16 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 14:41
-// Last Modified: 01.10.2016 16:12
+// Created:       01.10.2016 17:16
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
+
+using JetBrains.Annotations;
+using phirSOFT.Strings;
 using System;
 using System.Diagnostics;
 using System.Drawing;
@@ -17,8 +22,6 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using JetBrains.Annotations;
-using phirSOFT.Strings;
 
 namespace phirSOFT.Common
 {
@@ -31,7 +34,7 @@ namespace phirSOFT.Common
         /// <summary>
         ///     Provides a table that translates <see cref="HorizontalAlignment" /> to <see cref="TextFormatFlags" />.
         /// </summary>
-        public static readonly MapTable<HorizontalAlignment, TextFormatFlags> TextFormatTable;
+        public static MapTable<HorizontalAlignment, TextFormatFlags> TextFormatTable { get; }
 
         static TextTools()
         {
@@ -50,7 +53,6 @@ namespace phirSOFT.Common
             };
         }
 
-
         /// <summary>
         ///     Provides a alignment Table for translate.
         /// </summary>
@@ -67,15 +69,17 @@ namespace phirSOFT.Common
             {
                 case HorizontalAlignment.Left:
                     return StringAlignment.Near;
+
                 case HorizontalAlignment.Right:
                     return StringAlignment.Far;
+
                 case HorizontalAlignment.Center:
                     return StringAlignment.Center;
+
                 default:
                     return default(StringAlignment);
             }
         }
-
 
         /// <summary>
         ///     Translates a <see cref="HorizontalAlignment" /> to the according <see cref="TextFormatFlags" />.
@@ -88,10 +92,13 @@ namespace phirSOFT.Common
             {
                 case HorizontalAlignment.Left:
                     return TextFormatFlags.Left;
+
                 case HorizontalAlignment.Right:
                     return TextFormatFlags.Right;
+
                 case HorizontalAlignment.Center:
                     return TextFormatFlags.HorizontalCenter;
+
                 default:
                     return default(TextFormatFlags);
             }
@@ -108,16 +115,22 @@ namespace phirSOFT.Common
             {
                 case StringTrimming.EllipsisCharacter:
                     return TextFormatFlags.EndEllipsis;
+
                 case StringTrimming.EllipsisPath:
                     return TextFormatFlags.PathEllipsis;
+
                 case StringTrimming.EllipsisWord:
                     return TextFormatFlags.WordEllipsis;
+
                 case StringTrimming.Word:
                     return TextFormatFlags.WordBreak;
+
                 case StringTrimming.None:
                     return TextFormatFlags.Default;
+
                 case StringTrimming.Character:
                     return TextFormatFlags.Default;
+
                 default:
                     return default(TextFormatFlags);
             }
@@ -136,7 +149,7 @@ namespace phirSOFT.Common
                 throw new ArgumentNullException(nameof(filter));
             var filters = filter.Split('|');
 
-// TODO: Use a stringbuilder here.
+            // TODO: Use a stringbuilder here.
             var reg = "(";
             for (var i = 1; i < filters.Length; i += 2)
             {
@@ -216,7 +229,7 @@ namespace phirSOFT.Common
         /// <typeparam name="T">The type of the array items.</typeparam>
         /// <param name="values">The Array to format.</param>
         /// <param name="formatter">A Formatter to format an item to string.</param>
-        /// <returns>An string representing the array using <paramref name="formatter"/>.</returns>
+        /// <returns>An string representing the array using <paramref name="formatter" />.</returns>
         /// <exception cref="Exception">A delegate callback throws an exception.</exception>
         public static string PrintArray<T>(this T[] values, Func<T, string> formatter)
         {
@@ -229,7 +242,7 @@ namespace phirSOFT.Common
         /// <typeparam name="T">The type of the array items.</typeparam>
         /// <param name="values">The Array to format.</param>
         /// <param name="formatter">A Formatter to format an item to string.</param>
-        /// <returns>An string representing the array using <paramref name="formatter"/>.</returns>
+        /// <returns>An string representing the array using <paramref name="formatter" />.</returns>
         /// <exception cref="ArgumentNullException">
         ///     <paramref name="values" /> or <paramref name="formatter" /> is
         ///     <see langword="null" />.
@@ -276,7 +289,7 @@ namespace phirSOFT.Common
                 return values.PrintArray(pos => pos.ToString("X", CultureInfo.InvariantCulture));
             }
 
-// If we catch a more specific exception we get still a warning we cant turn off properly.
+            // If we catch a more specific exception we get still a warning we cant turn off properly.
             // In fact, there wont be any Exception thrown here.
             // ReSharper disable once CatchAllClause
             catch

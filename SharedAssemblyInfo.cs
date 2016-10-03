@@ -4,11 +4,14 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
 // Created:       30.09.2016 12:40
-// Last Modified: 01.10.2016 16:12
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
+
 using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
@@ -18,6 +21,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 
 // associated with an assembly.
+
 [assembly: AssemblyCompany("phirSOFT")]
 [assembly: AssemblyProduct("phirSOFT Framework")]
 [assembly: AssemblyCopyright("Copyright © 2016")]
@@ -29,6 +33,7 @@ using System.Runtime.InteropServices;
 // to COM components.  If you need to access a type in this assembly from
 
 // COM, set the ComVisible attribute to true on that type.
+
 [assembly: ComVisible(false)]
 
 // Note that the assembly version does not get incremented for every build
@@ -44,6 +49,7 @@ using System.Runtime.InteropServices;
 // in AssemblyVersionInfo.cs so that it can be easily incremented by the
 
 // automated build process.
+
 [assembly: AssemblyVersion("1.2.0.0")]
 
 // By default, the “Product version” shown in the file properties window is
@@ -55,6 +61,7 @@ using System.Runtime.InteropServices;
 // AssemblyVersionAttribute so that the “Product version” in the file
 
 // properties window matches the version displayed in the GAC shell extension.
+
 [assembly: AssemblyInformationalVersion("1.2.0.0")] // a.k.a. “Product version”
 
 [assembly: AssemblyFileVersion("1.2.0.0")] // a.k.a. “Product version”

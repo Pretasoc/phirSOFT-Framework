@@ -4,11 +4,15 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 14:41
-// Last Modified: 01.10.2016 16:12
+// Created:       01.10.2016 17:16
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
+
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,8 +20,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Security;
-using JetBrains.Annotations;
 
 namespace phirSOFT.Common
 {
@@ -102,7 +104,6 @@ namespace phirSOFT.Common
             }
         }
 
-
         /// <summary>
         ///     Serializes a <paramref name="value" /> into a <paramref name="stream" /> using a given
         ///     <paramref name="formatter" />.
@@ -155,7 +156,6 @@ namespace phirSOFT.Common
 
             return ret;
         }
-
 
         /// <summary>
         ///     Deserializes a object from a <paramref name="stream" /> using a given <paramref name="formatter" />.

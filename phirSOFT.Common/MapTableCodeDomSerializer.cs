@@ -4,16 +4,18 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 16:16
-// Last Modified: 01.10.2016 16:21
+// Created:       01.10.2016 17:16
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
+
 using System;
 using System.CodeDom;
 using System.ComponentModel.Design.Serialization;
 using System.Diagnostics;
-using System.Reflection;
 
 namespace phirSOFT.Common
 {
@@ -42,7 +44,6 @@ namespace phirSOFT.Common
                     var enumIn = value.GetType().GetGenericArguments()[0];
                     var enumOut = value.GetType().GetGenericArguments()[1];
 
-
                     var indexerProperty = value.GetType().GetGenericTypeDefinition()?.GetProperty("Item");
 
                     Debug.Assert(indexerProperty != null);
@@ -65,7 +66,6 @@ namespace phirSOFT.Common
                                 // This should be proved through a text, in case that the API changes
                                 // the reflection might not work any more.
                                 enumOutSerializer.Serialize(manager, indexerProperty.GetValue(value, new[] {key}));
-
 
                             var targetObject = new CodeIndexerExpression(expression, keyStatement);
 

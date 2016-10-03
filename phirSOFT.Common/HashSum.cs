@@ -4,21 +4,23 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 14:41
-// Last Modified: 01.10.2016 16:12
+// Created:       01.10.2016 17:16
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
+
+using JetBrains.Annotations;
+using phirSOFT.Strings;
 using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Runtime.Serialization;
-using System.Security;
 using System.Security.Cryptography;
-using JetBrains.Annotations;
-using phirSOFT.Strings;
-using System.ComponentModel;
 
 namespace phirSOFT.Common
 {
@@ -45,12 +47,11 @@ namespace phirSOFT.Common
         [SuppressMessage("Microsoft.Design", "CA1000:DoNotDeclareStaticMembersOnGenericTypes")]
         public static readonly HashSum<T> Empty = new HashSum<T>(new byte[HashSize]);
 
-
         /// <summary>
         ///     Creates a new hash sum by interpreting a byte array as hash sum.
         /// </summary>
         /// <param name="hash"></param>
-        /// <returns>A <see cref="HashSum{T}"/> instance where <see cref="Hash"/> is <paramref name="hash"/>.</returns>
+        /// <returns>A <see cref="HashSum{T}" /> instance where <see cref="Hash" /> is <paramref name="hash" />.</returns>
         [SuppressMessage("Microsoft.Design", "CA1000:DoNotDeclareStaticMembersOnGenericTypes")]
         [PublicAPI]
         public static HashSum<T> FromBytes(byte[] hash)
@@ -59,7 +60,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Calculates the hash sum for a given object.
+        ///     Calculates the hash sum for a given object.
         /// </summary>
         /// <param name="data">The object to calculate the hash sum for.</param>
         /// <remarks><paramref name="data" /> has to be serializeable.</remarks>
@@ -84,7 +85,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Calculates the hashsum of an given buffer.
+        ///     Calculates the hashsum of an given buffer.
         /// </summary>
         /// <param name="buffer">The buffer to calculate the hashsum for</param>
         /// <returns>A hash sum containing the hash sum of the buffer</returns>
@@ -100,7 +101,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Calculates the hashsum of an given stream.
+        ///     Calculates the hashsum of an given stream.
         /// </summary>
         /// <param name="data">The stream containing the buffer to calculate the hashsum for</param>
         /// <returns>A hash sum containing the hash sum of the buffer</returns>
@@ -116,7 +117,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Calculates the hashsum of an given buffer.
+        ///     Calculates the hashsum of an given buffer.
         /// </summary>
         /// <param name="buffer">The buffer to calculate the hashsum for</param>
         /// <param name="offset">The index of the first byte to use. </param>
@@ -138,7 +139,7 @@ namespace phirSOFT.Common
                  "Because HashSum is private a instance constructor is called before the member is accessed.")]
         static HashSum()
         {
-            HashSize = new T().HashSize / 8;
+            HashSize = new T().HashSize/8;
         }
 
         private HashSum(byte[] hash)
@@ -152,7 +153,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Gets the byte array representing the hash sum.
+        ///     Gets the byte array representing the hash sum.
         /// </summary>
         [SuppressMessage("Microsoft.Performance", "CA1819:PropertiesShouldNotReturnArrays",
              Justification = "The array is small enough to keep this a property.")]
@@ -169,14 +170,14 @@ namespace phirSOFT.Common
             }
         }
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public override bool Equals(object obj)
         {
             if (!(obj is HashSum<T>)) return false;
 
             try
             {
-                return _hash.CompareArrays(((HashSum<T>)obj)._hash);
+                return _hash.CompareArrays(((HashSum<T>) obj)._hash);
             }
             catch (RankException)
             {
@@ -220,22 +221,22 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Determinates whether <paramref name="left"/> is unequal to <paramref name="right"/>.
+        ///     Determinates whether <paramref name="left" /> is unequal to <paramref name="right" />.
         /// </summary>
-        /// <param name="left">The first <see cref="HashSum{T}"/> to compare.</param>
-        /// <param name="right">The second <see cref="HashSum{T}"/> to compare.</param>
-        /// <returns>True, if <paramref name="left"/> is not equal to <paramref name="right"/>, otherwise false.</returns>
+        /// <param name="left">The first <see cref="HashSum{T}" /> to compare.</param>
+        /// <param name="right">The second <see cref="HashSum{T}" /> to compare.</param>
+        /// <returns>True, if <paramref name="left" /> is not equal to <paramref name="right" />, otherwise false.</returns>
         public static bool operator !=(HashSum<T> left, HashSum<T> right)
         {
             return !left.Equals(right);
         }
 
         /// <summary>
-        /// Determinates whether <paramref name="left"/> is equal to <paramref name="right"/>.
+        ///     Determinates whether <paramref name="left" /> is equal to <paramref name="right" />.
         /// </summary>
-        /// <param name="left">The first <see cref="HashSum{T}"/> to compare.</param>
-        /// <param name="right">The second <see cref="HashSum{T}"/> to compare.</param>
-        /// <returns>True, if <paramref name="left"/> is equal to <paramref name="right"/>, otherwise false.</returns>
+        /// <param name="left">The first <see cref="HashSum{T}" /> to compare.</param>
+        /// <param name="right">The second <see cref="HashSum{T}" /> to compare.</param>
+        /// <returns>True, if <paramref name="left" /> is equal to <paramref name="right" />, otherwise false.</returns>
         public static bool operator ==(HashSum<T> left, HashSum<T> right)
         {
             return left.Equals(right);
@@ -245,9 +246,8 @@ namespace phirSOFT.Common
         ///     Umpacks the <see cref="HashSum{T}" /> to an byte array.
         /// </summary>
         /// <param name="hash">The <see cref="HashSum{T}" /> to unpack.</param>
-        /// <returns>A byte array tha represents the <see cref="HashSum{T}"/>.</returns>
-        public static implicit operator byte[] (HashSum<T> hash) => hash._hash;
-
+        /// <returns>A byte array tha represents the <see cref="HashSum{T}" />.</returns>
+        public static implicit operator byte[](HashSum<T> hash) => hash._hash;
 
         /// <summary>Returns a string that represents the current object.</summary>
         /// <returns>A string that represents the current object.</returns>

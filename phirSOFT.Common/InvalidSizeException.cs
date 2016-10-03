@@ -4,17 +4,20 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 14:41
-// Last Modified: 01.10.2016 16:12
+// Created:       01.10.2016 17:16
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
+
+using JetBrains.Annotations;
+using phirSOFT.Strings;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Runtime.Serialization;
-using JetBrains.Annotations;
-using phirSOFT.Strings;
 
 namespace phirSOFT.Common
 {
@@ -32,7 +35,8 @@ namespace phirSOFT.Common
         ///     Initializes a new instance of the <see cref="InvalidSizeException" /> class with a given message.
         /// </summary>
         /// <param name="message">The message describing the exception.</param>
-        public InvalidSizeException(string message) : base(SR.ex_NotMd5 + string.Format(CultureInfo.InvariantCulture,SR.ex_OriginalMessage, message))
+        public InvalidSizeException(string message)
+            : base(SR.ex_NotMd5 + string.Format(CultureInfo.InvariantCulture, SR.ex_OriginalMessage, message))
         {
         }
 
@@ -60,14 +64,6 @@ namespace phirSOFT.Common
             }
         }
 
-        /// <inheritdoc/>
-        public override void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue(ActualSizeFieldName, ActualSize);
-            info.AddValue(RequestedSizeFieldName, RequestedSize);
-            base.GetObjectData(info, context);
-        }
-
         /// <summary>
         ///     Initializes a new instance of the <see cref="InvalidSizeException" /> class
         ///     with a given message and an inner exception, that causes this exception.
@@ -78,7 +74,9 @@ namespace phirSOFT.Common
         /// </param>
         [SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         public InvalidSizeException(string message, Exception innerException)
-            : base(SR.ex_NotMd5 + string.Format(CultureInfo.InvariantCulture ,SR.ex_OriginalMessage, message), innerException)
+            : base(
+                SR.ex_NotMd5 + string.Format(CultureInfo.InvariantCulture, SR.ex_OriginalMessage, message),
+                innerException)
         {
         }
 
@@ -94,5 +92,13 @@ namespace phirSOFT.Common
 
         /// <inheritdoc cref="ArgumentException.ParamName" />
         public override string ParamName => "hash";
+
+        /// <inheritdoc />
+        public override void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue(ActualSizeFieldName, ActualSize);
+            info.AddValue(RequestedSizeFieldName, RequestedSize);
+            base.GetObjectData(info, context);
+        }
     }
 }

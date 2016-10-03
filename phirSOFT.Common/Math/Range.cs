@@ -1,4 +1,18 @@
-﻿using JetBrains.Annotations;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright company="phirSOFT" file="Range.cs">
+// Licensed under the Apache License, Version 2.0 (the "License")
+// </copyright>
+// <summary>
+// phirSOFT Package phirSOFT.Common
+// 
+// Created by:    Philemon Eichin
+// Created:       02.10.2016 19:41
+// Last Modified: 03.10.2016 12:58
+// </summary>
+//  
+// --------------------------------------------------------------------------------------------------------------------
+
+using JetBrains.Annotations;
 
 namespace phirSOFT.Common.Math
 {

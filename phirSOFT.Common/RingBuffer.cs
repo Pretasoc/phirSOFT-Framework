@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright company="phirSOFT" file="Buffer.cs">
+// <copyright company="phirSOFT" file="RingBuffer.cs">
 // Licensed under the Apache License, Version 2.0 (the "License")
 // </copyright>
 // <summary>
@@ -7,13 +7,13 @@
 // 
 // Created by:    Philemon Eichin
 // Created:       01.10.2016 18:30
-// Last Modified: 01.10.2016 19:26
+// Last Modified: 03.10.2016 12:58
 // </summary>
 //  
 // --------------------------------------------------------------------------------------------------------------------
 
-using System.Collections;
 using JetBrains.Annotations;
+using System.Collections;
 
 namespace phirSOFT.Common
 {
@@ -31,7 +31,6 @@ namespace phirSOFT.Common
         private T[] _items;
         private long _positon;
         private RemoveStrategies.RemoveStrategy _removeStrategy;
-
 
         /// <summary>
         ///     Creates a new instance of the <see cref="RingBuffer{T}" /> class.
@@ -58,22 +57,20 @@ namespace phirSOFT.Common
                 Add(item);
         }
 
-
         /// <summary>
         ///     Gets the capacity of items that can be stored in the buffer.
         /// </summary>
         public long Capacity { get; }
 
-
         /// <summary>
-        ///     Gets or sets the strategy for removing an item. This delegate is called by <see cref="Remove(T)"/>
+        ///     Gets or sets the strategy for removing an item. This delegate is called by <see cref="Remove(T)" />
         /// </summary>
         /// <remarks>
         ///     This property is never <see langword="null" />. If set to <see langword="null" /> the default strategy is restored.
         ///     The default strategy removes the item without filling up the gap.
         /// </remarks>
-        /// <seealso cref="RemoveStrategies"/>
-        /// <seealso cref="RemoveStrategies.RemoveStrategy"/>
+        /// <seealso cref="RemoveStrategies" />
+        /// <seealso cref="RemoveStrategies.RemoveStrategy" />
         [NotNull]
         public RemoveStrategies.RemoveStrategy RemoveStrategy
         {
@@ -81,12 +78,11 @@ namespace phirSOFT.Common
             set { _removeStrategy = value; }
         }
 
-
         /// <inheritdoc />
         public void Add(T obj)
         {
             _items[_positon] = obj;
-            _positon = (_positon + 1) % Capacity;
+            _positon = (_positon + 1)%Capacity;
         }
 
         /// <inheritdoc />
@@ -112,7 +108,7 @@ namespace phirSOFT.Common
         }
 
         /// <inheritdoc />
-        public int Count => (int)Capacity;
+        public int Count => (int) Capacity;
 
         /// <inheritdoc />
         public bool IsReadOnly { get; }
@@ -142,7 +138,6 @@ namespace phirSOFT.Common
                 _position = 0;
             }
 
-
             /// <inheritdoc />
             public void Dispose()
             {
@@ -165,84 +160,85 @@ namespace phirSOFT.Common
             }
 
             /// <inheritdoc />
-            public T Current => _ringBuffer._items[(_position + _zero) % _ringBuffer.Capacity];
+            public T Current => _ringBuffer._items[(_position + _zero)%_ringBuffer.Capacity];
 
             /// <inheritdoc />
             object IEnumerator.Current => Current;
         }
 
         /// <summary>
-        /// Contains some strategies how to remove items from an <see cref="RingBuffer{T}"/>
+        ///     Contains some strategies how to remove items from an <see cref="RingBuffer{T}" />
         /// </summary>
         public static class RemoveStrategies
         {
             /// <summary>
-            /// Defines the delegate type for removing an item from an <see cref="RingBuffer{T}"/>
+            ///     Defines the delegate type for removing an item from an <see cref="RingBuffer{T}" />
             /// </summary>
-            /// <param name="data">An array representing the <see cref="RingBuffer{T}"/>.</param>
+            /// <param name="data">An array representing the <see cref="RingBuffer{T}" />.</param>
             /// <param name="item">The item to remove from the buffer.</param>
             /// <param name="start">The index of the item, where to start to search for the item.</param>
-            /// <inheritdoc cref="ICollection{T}.Remove(T)" select="return"/>
+            /// <inheritdoc cref="ICollection{T}.Remove(T)" select="return" />
             public delegate bool RemoveStrategy(T[] data, T item, long start);
 
             /// <summary>
-            /// Defines the default strategy, which sets the item to the default value.
+            ///     Defines the default strategy, which sets the item to the default value.
             /// </summary>
-            /// <param name="array">An array representing the <see cref="RingBuffer{T}"/>.</param>
+            /// <param name="array">An array representing the <see cref="RingBuffer{T}" />.</param>
             /// <param name="item">The item to remove from the buffer.</param>
             /// <param name="start">The index of the item, where to start to search for the item.</param>
-            /// <inheritdoc cref="ICollection{T}.Remove(T)" select="return"/>
+            /// <inheritdoc cref="ICollection{T}.Remove(T)" select="return" />
             /// <remarks>
-            /// This strategy does not close the gap resulting in the deletion. For example:
-            /// <para>
-            /// Assumming you have the following buffer [A, B, C, D, E, F, 0, 0, 0] and you're going to remove B this would result in
-            /// [A, 0, C, D, E, F, 0, 0, 0]
-            /// </para>
+            ///     This strategy does not close the gap resulting in the deletion. For example:
+            ///     <para>
+            ///         Assumming you have the following buffer [A, B, C, D, E, F, 0, 0, 0] and you're going to remove B this would
+            ///         result in
+            ///         [A, 0, C, D, E, F, 0, 0, 0]
+            ///     </para>
             /// </remarks>
-            /// <seealso cref="RemoveStrategy"/>
+            /// <seealso cref="RemoveStrategy" />
             public static bool DefaultStrategy(T[] array, T item, long start)
             {
                 if (item.Equals(default(T)))
                     return false;
 
                 for (long i = 0; i < array.LongLength; i++)
-                    if (!array[(i + start) % array.LongLength].Equals(item))
+                    if (!array[(i + start)%array.LongLength].Equals(item))
                     {
-                        array[(i + start) % array.LongLength] = default(T);
+                        array[(i + start)%array.LongLength] = default(T);
                         return true;
                     }
-
 
                 return false;
             }
 
             /// <summary>
-            ///  Defines the a strategy, which sets the item to the default value and closes the gap.
+            ///     Defines the a strategy, which sets the item to the default value and closes the gap.
             /// </summary>
-            /// <param name="array">An array representing the <see cref="RingBuffer{T}"/>.</param>
+            /// <param name="array">An array representing the <see cref="RingBuffer{T}" />.</param>
             /// <param name="item">The item to remove from the buffer.</param>
             /// <param name="start">The index of the item, where to start to search for the item.</param>
-            /// <inheritdoc cref="ICollection{T}.Remove(T)" select="return"/>
+            /// <inheritdoc cref="ICollection{T}.Remove(T)" select="return" />
             /// <remarks>
-            /// This strategy does close the gap resulting in the deletion. For example:
-            /// <para>
-            /// Assumming you have the following buffer [A, B, C, D, E, F, 0, 0, 0] and you're going to remove B this would result in
-            /// [A, C, D, E, F, 0, 0, 0, 0]
-            /// </para>
+            ///     This strategy does close the gap resulting in the deletion. For example:
+            ///     <para>
+            ///         Assumming you have the following buffer [A, B, C, D, E, F, 0, 0, 0] and you're going to remove B this would
+            ///         result in
+            ///         [A, C, D, E, F, 0, 0, 0, 0]
+            ///     </para>
             /// </remarks>
-            /// <seealso cref="RemoveStrategy"/>
+            /// <seealso cref="RemoveStrategy" />
             public static bool ShiftStrategy(T[] array, T item, long start)
             {
                 var shift = false;
                 for (long i = 0; i < array.LongLength; i++)
                     if (!shift)
                     {
-                        if (!array[(i + start) % array.LongLength].Equals(item)) continue;
-                        array[(i + start) % array.LongLength] = array[(i + start + 1) % array.LongLength];
+                        if (!array[(i + start)%array.LongLength].Equals(item)) continue;
+                        array[(i + start)%array.LongLength] = array[(i + start + 1)%array.LongLength];
                         shift = true;
                     }
                     else if (i + 1 < array.LongLength)
-                        array[(i + start) % array.LongLength] = array[(i + start + 1) % array.LongLength];
+                        array[(i + start)%array.LongLength] = array[(i + start + 1)%array.LongLength];
                 return shift;
             }
         }

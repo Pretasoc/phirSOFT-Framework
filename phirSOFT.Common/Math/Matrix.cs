@@ -1,10 +1,24 @@
-﻿namespace phirSOFT.Common.Math
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright company="phirSOFT" file="Matrix.cs">
+// Licensed under the Apache License, Version 2.0 (the "License")
+// </copyright>
+// <summary>
+// phirSOFT Package phirSOFT.Common
+// 
+// Created by:    Philemon Eichin
+// Created:       02.10.2016 19:41
+// Last Modified: 03.10.2016 12:58
+// </summary>
+//  
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace phirSOFT.Common.Math
 {
+    using JetBrains.Annotations;
     using System;
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
     using System.Diagnostics.Contracts;
-    using JetBrains.Annotations;
 
     /// <summary>
     ///     Represents a generic Matrix of <typeparamref name="T" />.
@@ -130,7 +144,6 @@
         /// <returns>Returns a n x n Matrix with 0 in every entry.</returns>
         public static Matrix<T> ZeroMatrix(int dimension) => new Matrix<T>(dimension, dimension);
 
-
         /// <summary>
         ///     Gets the zero Matrix of the field.
         /// </summary>
@@ -254,7 +267,6 @@
             return value;
         }
 
-
         /// <summary>
         ///     Checks the equality of two matrices.
         /// </summary>
@@ -291,7 +303,7 @@
         public override bool Equals(object obj)
         {
             var matrix = obj as Matrix<T>;
-            return matrix != null && Equals(matrix);
+            return (matrix != null) && Equals(matrix);
         }
     }
 }

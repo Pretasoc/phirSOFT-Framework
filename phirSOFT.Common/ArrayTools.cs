@@ -4,16 +4,19 @@
 // </copyright>
 // <summary>
 // phirSOFT Package phirSOFT.Common
+// 
 // Created by:    Philemon Eichin
-// Created:       01.10.2016 14:41
-// Last Modified: 01.10.2016 16:12
+// Created:       01.10.2016 17:16
+// Last Modified: 03.10.2016 12:58
 // </summary>
+//  
 // --------------------------------------------------------------------------------------------------------------------
+
+using JetBrains.Annotations;
 using System;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
-using JetBrains.Annotations;
 using static phirSOFT.Strings.SR;
 
 namespace phirSOFT.Common
@@ -56,7 +59,6 @@ namespace phirSOFT.Common
         /// <param name="array">An <see cref="Array" /> containing strings.</param>
         /// <returns>A <see cref="string" />, thats the composition </returns>
         /// <exception cref="ArgumentNullException">Thrown, if <paramref name="array" /> is <see langword="null" /></exception>
-       
         [Obsolete("Use string.Join() instead.")]
         public static string ConcatArray(this object[] array) => string.Join(string.Empty, array);
 
@@ -83,12 +85,16 @@ namespace phirSOFT.Common
             if ((start < 0) || (start >= array.LongLength))
                 throw new ArgumentOutOfRangeException(nameof(start),
                     start,
-                    string.Format(CultureInfo.InvariantCulture,ex_IndexOutOfRange, start, 0, array.LongLength - 1));
+                    string.Format(CultureInfo.InvariantCulture, ex_IndexOutOfRange, start, 0, array.LongLength - 1));
 
             if ((elementCount <= 0) || (start + elementCount > array.LongLength))
                 throw new ArgumentOutOfRangeException(nameof(elementCount),
                     elementCount,
-                    string.Format(CultureInfo.InvariantCulture, ex_ValueOutOfRange, elementCount, 0, array.LongLength - 1 - start));
+                    string.Format(CultureInfo.InvariantCulture,
+                        ex_ValueOutOfRange,
+                        elementCount,
+                        0,
+                        array.LongLength - 1 - start));
 
             var ret = new T[elementCount];
             for (var i = 0; i < elementCount; i++)
@@ -123,7 +129,6 @@ namespace phirSOFT.Common
             return ret;
         }
 
-
         /// <summary>
         ///     Insert one array into an other.
         /// </summary>
@@ -139,7 +144,6 @@ namespace phirSOFT.Common
         {
             var leftPart = array.GetArrayPart(0, position);
             var rightPArt = array.GetArrayPart(position, array.LongLength - position);
-
 
             return leftPart.JoinArrays(insertionArray).JoinArrays(rightPArt);
         }

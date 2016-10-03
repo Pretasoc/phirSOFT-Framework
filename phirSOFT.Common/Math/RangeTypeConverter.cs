@@ -1,9 +1,23 @@
-﻿namespace phirSOFT.Common.Math
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright company="phirSOFT" file="RangeTypeConverter.cs">
+// Licensed under the Apache License, Version 2.0 (the "License")
+// </copyright>
+// <summary>
+// phirSOFT Package phirSOFT.Common
+// 
+// Created by:    Philemon Eichin
+// Created:       02.10.2016 19:41
+// Last Modified: 03.10.2016 12:58
+// </summary>
+//  
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace phirSOFT.Common.Math
 {
+    using Strings;
     using System;
     using System.ComponentModel;
     using System.Globalization;
-    using Strings;
 
     /// <summary>
     ///     Provides a type converter for Ranges. It requires an Typeconverter for the generic type to work.
@@ -11,7 +25,6 @@
     public class RangeTypeConverter : TypeConverter
     {
         private static readonly Type RangeType = typeof(Range<>);
-
 
         private readonly TypeConverter _innerTypeConverter;
         private readonly Type _specificRangeType;

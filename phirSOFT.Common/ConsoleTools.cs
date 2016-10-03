@@ -1,16 +1,23 @@
-﻿// phirSOFT Library-phirSOFT.Common
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright company="phirSOFT" file="ConsoleTools.cs">
+// Licensed under the Apache License, Version 2.0 (the "License")
+// </copyright>
+// <summary>
+// phirSOFT Package phirSOFT.Common
 // 
 // Created by:    Philemon Eichin
-// Last Modified: 06.02.2016 17:35
-// 
-// File:ConsoleTools.cs
+// Created:       01.10.2016 22:13
+// Last Modified: 03.10.2016 12:58
+// </summary>
+//  
+// --------------------------------------------------------------------------------------------------------------------
 
+using JetBrains.Annotations;
+using phirSOFT.Common.Math;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using static phirSOFT.Strings.SR;
 using static System.Console;
-using JetBrains.Annotations;
-using phirSOFT.Common.Math;
 
 namespace phirSOFT.Common
 {
@@ -18,45 +25,45 @@ namespace phirSOFT.Common
     using System.Globalization;
 
     /// <summary>
-    /// Provides functions for console Applications.
+    ///     Provides functions for console Applications.
     /// </summary>
     [PublicAPI]
     public static class ConsoleTools
     {
-
         private const char CursorChar = '_';
 
         /// <summary>
-        /// Promps an application logo generated from 
+        ///     Promps an application logo generated from
         /// </summary>
         /// <devdoc>
-        /// Cannot create a test for this method, because the entry assembly is not accessable.
+        ///     Cannot create a test for this method, because the entry assembly is not accessable.
         /// </devdoc>
         [ExcludeFromCodeCoverage]
         public static void PromptLogo()
         {
             var assembly = Assembly.GetEntryAssembly();
 
-            WriteLine(LogoLine1, assembly.GetCustomAttribute<AssemblyCompanyAttribute>().Company, assembly.GetCustomAttribute<AssemblyTitleAttribute>().Title, assembly.GetCustomAttribute<AssemblyVersionAttribute>().Version);
+            WriteLine(LogoLine1,
+                assembly.GetCustomAttribute<AssemblyCompanyAttribute>().Company,
+                assembly.GetCustomAttribute<AssemblyTitleAttribute>().Title,
+                assembly.GetCustomAttribute<AssemblyVersionAttribute>().Version);
             WriteLine(assembly.GetCustomAttribute<AssemblyCopyrightAttribute>().Copyright);
         }
 
-
         /// <summary>
-        /// Waits until the user presses any key.
+        ///     Waits until the user presses any key.
         /// </summary>
         /// <param name="message">A message to display to the user until a key is pressed.</param>
         /// <exception cref="System.IO.IOException" />
         [ExcludeFromCodeCoverage]
         public static void WaitForAnyKey(string message)
         {
-
             WriteInNewLine(message);
             ReadKey(true);
         }
 
         /// <summary>
-        /// Shows a default message and waits until the user presses a key.
+        ///     Shows a default message and waits until the user presses a key.
         /// </summary>
         /// <exception cref="System.IO.IOException" />
         [ExcludeFromCodeCoverage]
@@ -67,7 +74,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Waits until the user presses a specific key.
+        ///     Waits until the user presses a specific key.
         /// </summary>
         /// <param name="prompt">A message prompted to the user.</param>
         /// <param name="showKeys">If true the user will get a list of the available keys.</param>
@@ -99,7 +106,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Ensures the cursor is at the beginning of a line an writes a text.
+        ///     Ensures the cursor is at the beginning of a line an writes a text.
         /// </summary>
         /// <param name="text">The text to write.</param>
         /// <exception cref="System.IO.IOException" />
@@ -112,7 +119,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Ensures the cursor is at the beginning of a line an writes a text and a line terminator.
+        ///     Ensures the cursor is at the beginning of a line an writes a text and a line terminator.
         /// </summary>
         /// <param name="text">The text to write.</param>
         [ExcludeFromCodeCoverage]
@@ -124,7 +131,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Asks the user to enter a number (interger).
+        ///     Asks the user to enter a number (interger).
         /// </summary>
         /// <param name="prompt">The message promted to user.</param>
         /// <returns>The number the user entered.</returns>
@@ -158,7 +165,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Asks the user to enter a number within a specific range (interger).
+        ///     Asks the user to enter a number within a specific range (interger).
         /// </summary>
         /// <param name="prompt">The message promted to user.</param>
         /// <param name="lower">The lowest allowed number.</param>
@@ -198,9 +205,8 @@ namespace phirSOFT.Common
             return inputI;
         }
 
-
         /// <summary>
-        /// Asks the user to enter a number within a specific range (interger).
+        ///     Asks the user to enter a number within a specific range (interger).
         /// </summary>
         /// <param name="prompt">The message promted to user.</param>
         /// <param name="range">The allowed range.</param>
@@ -230,7 +236,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Writes an error to the console in red color.
+        ///     Writes an error to the console in red color.
         /// </summary>
         /// <param name="value">The text of the message.</param>
         /// <exception cref="System.Security.SecurityException" />
@@ -243,7 +249,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Prompts the user for a respose. (Committed with return)
+        ///     Prompts the user for a respose. (Committed with return)
         /// </summary>
         /// <param name="prompt">The promt to show.</param>
         /// <returns>The text the user entered.</returns>
@@ -257,7 +263,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Moves the cursor to the specific postion and writes a prompt.
+        ///     Moves the cursor to the specific postion and writes a prompt.
         /// </summary>
         /// <param name="positionX">The x-coordinate of the first char.</param>
         /// <param name="positionY">The y-coordinate of the first char.</param>
@@ -273,14 +279,14 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Moves the cursor to the specific postion and writes a prompt in a specific color.
+        ///     Moves the cursor to the specific postion and writes a prompt in a specific color.
         /// </summary>
         /// <param name="positionX">The x-coordinate of the first char.</param>
         /// <param name="positionY">The y-coordinate of the first char.</param>
         /// <param name="promt">The message to display</param>
         /// <param name="color">The color to write the prompt.</param>
         /// <remarks>
-        /// The color is not resetted after calling this function.
+        ///     The color is not resetted after calling this function.
         /// </remarks>
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
@@ -292,7 +298,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Writes text in a specific color.
+        ///     Writes text in a specific color.
         /// </summary>
         /// <param name="promt">The text to display</param>
         /// <param name="color">The color to apply to the text.</param>
@@ -309,7 +315,7 @@ namespace phirSOFT.Common
         }
 
         /// <summary>
-        /// Writes text and a line terminator in a specific color.
+        ///     Writes text and a line terminator in a specific color.
         /// </summary>
         /// <param name="promt">The text to display</param>
         /// <param name="color">The color to apply to the text.</param>
