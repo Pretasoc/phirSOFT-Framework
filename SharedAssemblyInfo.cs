@@ -50,7 +50,7 @@ using System.Runtime.InteropServices;
 
 // automated build process.
 
-[assembly: AssemblyVersion("1.2.0.0")]
+[assembly: AssemblyVersion("1.3.0.0")]
 
 // By default, the “Product version” shown in the file properties window is
 
@@ -62,6 +62,6 @@ using System.Runtime.InteropServices;
 
 // properties window matches the version displayed in the GAC shell extension.
 
-[assembly: AssemblyInformationalVersion("1.2.0.0")] // a.k.a. “Product version”
+[assembly: AssemblyInformationalVersion("1.2.1.0")] // a.k.a. “Product version”
 
-[assembly: AssemblyFileVersion("1.2.0.0")] // a.k.a. “Product version”
+[assembly: AssemblyFileVersion("1.2.1.0")] // a.k.a. “Product version”
