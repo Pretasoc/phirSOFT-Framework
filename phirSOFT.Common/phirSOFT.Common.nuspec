@@ -21,6 +21,7 @@
         <language>en-US</language>
         <tags>Matrix, Bitmanipulation, Tree, Arrays, Console</tags>
     </metadata>
+  <releaseNotes>%NOTES</releaseNotes>
   <files>
     <file src="bin\release\phirSOFT.Common.*" target="lib"/>
     <file src="bin\release\de-de\*.dll" target="lib"/>
