@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="phirSOFT.Common.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SR.de-de.resx">

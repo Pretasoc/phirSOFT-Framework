@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>phirSOFT.Common</id>
+        <version>1.0.0</version>
+        <title>phirSOFT.Common</title>
+        <authors>phirSOFT</authors>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <projectUrl>https://github.com/Pretasoc/phirSOFT-Framework</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Tools for the following scenari
+ - Console applications
+ - Abstract trees
+ - Matrices
+ - Mathematical Ranges
+ - Arrays
+ - Serialisation
+ - Text or string tools</description>
+        <summary>The package contains some common useable tools</summary>
+        <copyright>(c) phirSOFT, 2016</copyright>
+        <language>en-US</language>
+        <tags>Matrix, Bitmanipulation, Tree, Arrays, Console</tags>
+    </metadata>
+  <files>
+    <file src="bin\release\phirSOFT.Common.*" target="lib"/>
+    <file src="bin\release\de-de\*.dll" target="lib"/>
+  </files>
+</package>
