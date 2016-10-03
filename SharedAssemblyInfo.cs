@@ -50,7 +50,7 @@ using System.Runtime.InteropServices;
 
 // automated build process.
 
-[assembly: AssemblyVersion("1.3.0.0")]
+[assembly: AssemblyVersion("1.2.9.0")]
 
 // By default, the “Product version” shown in the file properties window is
 
