@@ -20,8 +20,9 @@
         <copyright>(c) phirSOFT, 2016</copyright>
         <language>en-US</language>
         <tags>Matrix, Bitmanipulation, Tree, Arrays, Console</tags>
+      <releaseNotes>%NOTES</releaseNotes>
     </metadata>
-  <releaseNotes>%NOTES</releaseNotes>
+  
   <files>
     <file src="bin\release\phirSOFT.Common.*" target="lib"/>
     <file src="bin\release\de-de\*.dll" target="lib"/>
