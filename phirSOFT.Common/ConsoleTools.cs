@@ -5,6 +5,7 @@
 // 
 // File:ConsoleTools.cs
 
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using static phirSOFT.Strings.SR;
 using static System.Console;
@@ -31,6 +32,7 @@ namespace phirSOFT.Common
         /// <devdoc>
         /// Cannot create a test for this method, because the entry assembly is not accessable.
         /// </devdoc>
+        [ExcludeFromCodeCoverage]
         public static void PromptLogo()
         {
             var assembly = Assembly.GetEntryAssembly();
@@ -45,6 +47,7 @@ namespace phirSOFT.Common
         /// </summary>
         /// <param name="message">A message to display to the user until a key is pressed.</param>
         /// <exception cref="System.IO.IOException" />
+        [ExcludeFromCodeCoverage]
         public static void WaitForAnyKey(string message)
         {
 
@@ -56,6 +59,7 @@ namespace phirSOFT.Common
         /// Shows a default message and waits until the user presses a key.
         /// </summary>
         /// <exception cref="System.IO.IOException" />
+        [ExcludeFromCodeCoverage]
         public static void WaitForAnyKey()
         {
             WriteInNewLine(pr_PressAnyKeyToContinue);
@@ -72,6 +76,7 @@ namespace phirSOFT.Common
         /// <exception cref="ArgumentNullException">Thrown, if <paramref name="keys" /> is <see langword="null" /> or empty.</exception>
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static int WaitForSpecificKeys(string prompt, bool showKeys, params ConsoleKey[] keys)
         {
             WriteInNewLine(BuildPrompt(prompt, showKeys, keys));
@@ -98,6 +103,7 @@ namespace phirSOFT.Common
         /// </summary>
         /// <param name="text">The text to write.</param>
         /// <exception cref="System.IO.IOException" />
+        [ExcludeFromCodeCoverage]
         public static void WriteInNewLine(string text)
         {
             if (CursorLeft != 0)
@@ -109,6 +115,7 @@ namespace phirSOFT.Common
         /// Ensures the cursor is at the beginning of a line an writes a text and a line terminator.
         /// </summary>
         /// <param name="text">The text to write.</param>
+        [ExcludeFromCodeCoverage]
         public static void WriteInNewLineWithBr(string text)
         {
             if (CursorLeft != 0)
@@ -124,6 +131,7 @@ namespace phirSOFT.Common
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="OutOfMemoryException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static int GetNumber(string prompt)
         {
             WriteInNewLine(prompt);
@@ -159,6 +167,7 @@ namespace phirSOFT.Common
         /// <exception cref="OutOfMemoryException" />
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static int GetNumber(string prompt, int lower, int upper)
         {
             WriteInNewLine(prompt);
@@ -199,6 +208,7 @@ namespace phirSOFT.Common
         /// <exception cref="OutOfMemoryException" />
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static int GetNumber(string prompt, Range<int> range) => GetNumber(prompt, range.Minimum, range.Maximum);
 
         private static string BuildPrompt(string prompt, bool showKeys, params ConsoleKey[] keys)
@@ -225,6 +235,7 @@ namespace phirSOFT.Common
         /// <param name="value">The text of the message.</param>
         /// <exception cref="System.Security.SecurityException" />
         /// <exception cref="System.IO.IOException" />
+        [ExcludeFromCodeCoverage]
         public static void WriteError(string value)
         {
             WriteLine();
@@ -238,6 +249,7 @@ namespace phirSOFT.Common
         /// <returns>The text the user entered.</returns>
         /// <exception cref="OutOfMemoryException" />
         /// <exception cref="System.IO.IOException" />
+        [ExcludeFromCodeCoverage]
         public static string Prompt(string prompt)
         {
             Write(prompt);
@@ -252,6 +264,7 @@ namespace phirSOFT.Common
         /// <param name="promt">The message to display</param>
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static void Output(int positionX, int positionY, object promt)
         {
             CursorLeft = positionX;
@@ -271,6 +284,7 @@ namespace phirSOFT.Common
         /// </remarks>
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static void Output(int positionX, int positionY, object promt, ConsoleColor color)
         {
             ForegroundColor = color;
@@ -285,6 +299,7 @@ namespace phirSOFT.Common
         /// <remarks>The color is resetted after calling this function</remarks>
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static void WriteColor(string promt, ConsoleColor color)
         {
             var c1 = ForegroundColor;
@@ -301,6 +316,7 @@ namespace phirSOFT.Common
         /// <remarks>The color is resetted after calling this function</remarks>
         /// <exception cref="System.IO.IOException" />
         /// <exception cref="System.Security.SecurityException" />
+        [ExcludeFromCodeCoverage]
         public static void WriteLineColor(string promt, ConsoleColor color)
         {
             var c1 = ForegroundColor;
