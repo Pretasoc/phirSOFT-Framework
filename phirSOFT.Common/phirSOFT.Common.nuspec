@@ -24,7 +24,7 @@
     </metadata>
   
   <files>
-    <file src="bin\release\phirSOFT.Common.*" target="lib"/>
-    <file src="bin\release\de-de\*.dll" target="lib"/>
+    <file src="bin\release\phirSOFT.Common.*" target="lib\4.6.1"/>
+    <file src="bin\release\de-de\*.dll" target="lib\4.6.1"/>
   </files>
 </package>
