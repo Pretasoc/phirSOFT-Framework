@@ -8,13 +8,13 @@
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
         <projectUrl>https://github.com/Pretasoc/phirSOFT-Framework</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Tools for the following scenari
+        <description>Tools for the following scenarios
  - Console applications
  - Abstract trees
  - Matrices
  - Mathematical Ranges
  - Arrays
- - Serialisation
+ - Serialization
  - Text or string tools</description>
         <summary>The package contains some common useable tools</summary>
         <copyright>(c) phirSOFT, 2016</copyright>
