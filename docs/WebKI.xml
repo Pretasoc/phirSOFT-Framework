@@ -6,6 +6,8 @@
     <HelpKINode Title="RingBuffer(T).Add Method " Url="html/b36d0d93-b52b-da94-6a4c-512a5779e742.htm" />
   </HelpKINode>
   <HelpKINode Title="Addition operator" Url="html/0d9d584b-3ef8-5349-f51c-98eff237a64e.htm" />
+  <HelpKINode Title="AdminTool property" Url="html/b734d943-e986-c178-8880-57e325493c77.htm" />
+  <HelpKINode Title="ApplicationData property" Url="html/a16b2012-a455-19d1-3ee4-0197cfc4ac33.htm" />
   <HelpKINode Title="ArrayTools class">
     <HelpKINode Title="ArrayTools Class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
     <HelpKINode Title="about ArrayTools class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
@@ -20,14 +22,55 @@
   <HelpKINode Title="ArrayTools.InsertArray&lt;T&gt; method" Url="html/f7021960-b713-5849-2b09-8e58a83a290f.htm" />
   <HelpKINode Title="ArrayTools.JoinArrays(Of T) method" Url="html/ad10c859-0998-bdfb-2982-53b66500b527.htm" />
   <HelpKINode Title="ArrayTools.JoinArrays&lt;T&gt; method" Url="html/ad10c859-0998-bdfb-2982-53b66500b527.htm" />
+  <HelpKINode Title="Attach method">
+    <HelpKINode Title="ITree(T).Attach Method " Url="html/74990182-d729-a3df-81b9-f92aa10054e4.htm" />
+    <HelpKINode Title="PreorderTree(T).Attach Method " Url="html/4b6f0742-c4de-49ca-786b-86f42c5c6d3d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AutoBufferFlush property" Url="html/bea9ca97-15b3-54d0-419d-122b3f029454.htm" />
+  <HelpKINode Title="BaseStream property" Url="html/e5fdde72-5dba-d34d-0033-1410f8bf2eaf.htm" />
+  <HelpKINode Title="BitStreamWriter class">
+    <HelpKINode Title="BitStreamWriter Class" Url="html/bbc4118a-c6e3-f350-f1ad-6f1c7839ca1a.htm" />
+    <HelpKINode Title="about BitStreamWriter class" Url="html/bbc4118a-c6e3-f350-f1ad-6f1c7839ca1a.htm" />
+    <HelpKINode Title="constructor" Url="html/e0282050-3930-257a-4381-ee210f5deaee.htm" />
+    <HelpKINode Title="methods" Url="html/88d98a20-9b70-df48-b4fb-af29182d19b0.htm" />
+    <HelpKINode Title="properties" Url="html/f824bdc9-c2d4-47f9-865e-cf863f1f1d7c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BitStreamWriter.AutoBufferFlush property" Url="html/bea9ca97-15b3-54d0-419d-122b3f029454.htm" />
+  <HelpKINode Title="BitStreamWriter.BitStreamWriter constructor" Url="html/e0282050-3930-257a-4381-ee210f5deaee.htm" />
+  <HelpKINode Title="BitStreamWriter.BufferState property" Url="html/0c4bb616-fea4-346d-598e-16ded050d95a.htm" />
+  <HelpKINode Title="BitStreamWriter.Dispose method" Url="html/7f539ba2-07dc-4a0f-2f0a-8e286f6b346e.htm" />
+  <HelpKINode Title="BitStreamWriter.Encoding property" Url="html/6065e719-c6e2-36a4-3222-651d107ffbd4.htm" />
+  <HelpKINode Title="BitStreamWriter.Finalize method" Url="html/b48a6956-17d4-d4fa-93ee-4208b6555305.htm" />
+  <HelpKINode Title="BitStreamWriter.FlushBuffer method" Url="html/2f8d210f-b62a-14f7-2355-f7c3999e9991.htm" />
+  <HelpKINode Title="BitStreamWriter.Item property" Url="html/a00379d7-0a80-d401-b63d-73758b8d4a84.htm" />
+  <HelpKINode Title="BitStreamWriter.Write method" Url="html/98df2086-e95f-7bb0-7a28-214c2c7a6cfb.htm" />
+  <HelpKINode Title="BitStreamWriter.WriteBit method" Url="html/5179fd8d-4017-7776-c57d-cd5d443a0bc2.htm" />
   <HelpKINode Title="Border enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
+  <HelpKINode Title="BufferState enumeration" Url="html/1aabf572-fb2e-035d-72ca-76139878d272.htm" />
+  <HelpKINode Title="BufferState property" Url="html/0c4bb616-fea4-346d-598e-16ded050d95a.htm" />
   <HelpKINode Title="BulkDeserialize method" Url="html/44600129-5b08-f0d6-42ba-95aa0cf097f6.htm" />
   <HelpKINode Title="BulkSerialize method" Url="html/c574adff-d878-6236-a026-27707d236ee1.htm" />
   <HelpKINode Title="CanConvertFrom method" Url="html/99f9c186-ce5f-49a1-24fc-b902578a2669.htm" />
   <HelpKINode Title="Capacity property" Url="html/8327b171-a35d-033f-c67c-395cedb91b63.htm" />
+  <HelpKINode Title="CDBurning property" Url="html/cc316185-25fc-f89b-f563-aef710e7fb87.htm" />
+  <HelpKINode Title="Children property" Url="html/14a39f3f-42f4-f302-3e5b-dc5af956c663.htm" />
   <HelpKINode Title="Clear method" Url="html/03931983-a191-bab3-6505-b7bd1a0b4653.htm" />
   <HelpKINode Title="Clone method" Url="html/f9550a5f-458b-90d0-9b4f-1dabb2201a7f.htm" />
   <HelpKINode Title="Columns property" Url="html/a8a56275-3cac-4c84-24a9-9e3e12eebc6d.htm" />
+  <HelpKINode Title="CommonAdminTools property" Url="html/fb5c02c6-f535-ffff-b40e-a7cf4703ea82.htm" />
+  <HelpKINode Title="CommonApplicationData property" Url="html/8e1c0b6a-1999-3650-224b-a84137a65951.htm" />
+  <HelpKINode Title="CommonDesktopDirectory property" Url="html/e6ad4695-5863-8ad3-f8a7-51ccfac34b20.htm" />
+  <HelpKINode Title="CommonDocuments property" Url="html/a9cde87b-b4f7-a9a1-dffc-e3d9e7cfd908.htm" />
+  <HelpKINode Title="CommonMusic property" Url="html/1b9e3ee5-2c55-713f-74e6-39480a65e4a6.htm" />
+  <HelpKINode Title="CommonOemLinks property" Url="html/432dc6c5-4d83-8bf1-4686-6838bd364c81.htm" />
+  <HelpKINode Title="CommonPictures property" Url="html/6fdf2c5e-8dc4-8972-bec9-6eace133dc62.htm" />
+  <HelpKINode Title="CommonProgramFiles property" Url="html/a320e2dc-ea67-fb04-a081-309cff3b4fef.htm" />
+  <HelpKINode Title="CommonProgramFilesX86 property" Url="html/d69ad85b-cf69-eb5f-5a40-b6e63654e252.htm" />
+  <HelpKINode Title="CommonPrograms property" Url="html/16c2c24c-7f59-8af5-efde-6efe46ff23bd.htm" />
+  <HelpKINode Title="CommonStartMenu property" Url="html/02044575-1fa7-bda1-0dc5-7947e035b6ae.htm" />
+  <HelpKINode Title="CommonStartup property" Url="html/bbdae5f2-80da-2fa7-ee8a-dc30f32c477b.htm" />
+  <HelpKINode Title="CommonTemplates property" Url="html/6b576dcc-4429-82f8-a527-277d51d5ec72.htm" />
+  <HelpKINode Title="CommonVideos property" Url="html/fc200b5c-04c4-953f-d8ef-887d1ad6d33a.htm" />
   <HelpKINode Title="CompareArrays(Of T) method" Url="html/b25201ad-e1be-b6b1-8f8b-616d55415e81.htm" />
   <HelpKINode Title="CompareArrays&lt;T&gt; method" Url="html/b25201ad-e1be-b6b1-8f8b-616d55415e81.htm" />
   <HelpKINode Title="ConcatArray method" Url="html/62276b83-7859-257e-00b4-3a46ba2adb63.htm" />
@@ -49,10 +92,18 @@
   <HelpKINode Title="ConsoleTools.WriteLineColor method" Url="html/781a7234-5f1d-ea1c-2e44-b621176de85f.htm" />
   <HelpKINode Title="Contains method" Url="html/815028af-1a4d-b459-16cd-26ec600806a0.htm" />
   <HelpKINode Title="ConvertFrom method" Url="html/ac9b6847-4316-1de7-dff1-fbe13d9117dd.htm" />
+  <HelpKINode Title="Cookies property" Url="html/e02b63ac-73b9-9343-a545-1089f55fc537.htm" />
   <HelpKINode Title="CopyTo method" Url="html/7eac01ec-5714-9a37-30c6-a063c1b49bf5.htm" />
   <HelpKINode Title="Count property" Url="html/bff50098-2c09-c7b9-b322-915caf1a8464.htm" />
+  <HelpKINode Title="Data property" Url="html/bcbc6140-e846-0d46-c866-d8e8cbda86d3.htm" />
   <HelpKINode Title="DefaultStrategy method" Url="html/671cfe17-fa5b-847f-5a9f-e0d2b5a8bf22.htm" />
   <HelpKINode Title="DeserializeObject method" Url="html/fe55c79b-148b-aeaf-3d5b-0716e3396bc1.htm" />
+  <HelpKINode Title="Desktop property" Url="html/c82a6ecb-1bba-17b2-17d5-29509b10c351.htm" />
+  <HelpKINode Title="DesktopDirectory property" Url="html/0edbd8e2-2604-bbe4-ea30-db7f7fa80620.htm" />
+  <HelpKINode Title="Detach method">
+    <HelpKINode Title="ITree(T).Detach Method " Url="html/05725d8c-a057-8da8-42ea-0cdfdeec6a7b.htm" />
+    <HelpKINode Title="PreorderTree(T).Detach Method " Url="html/5633376d-f885-af97-befd-b94b2997bf7d.htm" />
+  </HelpKINode>
   <HelpKINode Title="DimensionMismatchException class">
     <HelpKINode Title="DimensionMismatchException Class" Url="html/acec44d7-37ee-6dad-f3f1-a3b0b1f2e7c0.htm" />
     <HelpKINode Title="about DimensionMismatchException class" Url="html/acec44d7-37ee-6dad-f3f1-a3b0b1f2e7c0.htm" />
@@ -62,7 +113,14 @@
     <HelpKINode Title="properties" Url="html/79841f67-8c45-8265-7fd5-820d13a1fb70.htm" />
   </HelpKINode>
   <HelpKINode Title="DimensionMismatchException.DimensionMismatchException constructor" Url="html/8b13db00-2133-dac7-5862-9f08961c30b0.htm" />
+  <HelpKINode Title="Dispose method" Url="html/7f539ba2-07dc-4a0f-2f0a-8e286f6b346e.htm" />
+  <HelpKINode Title="Empty enumeration member" Url="html/1aabf572-fb2e-035d-72ca-76139878d272.htm" />
   <HelpKINode Title="Empty field" Url="html/042ec583-364c-2eec-d441-cde2cc34d0e0.htm" />
+  <HelpKINode Title="Empty property">
+    <HelpKINode Title="ITree(T).Empty Property " Url="html/98207ca8-fc88-1861-3420-c55f3d7aae4d.htm" />
+    <HelpKINode Title="PreorderTree(T).Empty Property " Url="html/c5d1302a-71da-968b-4aba-f7802e8b7963.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Encoding property" Url="html/6065e719-c6e2-36a4-3222-651d107ffbd4.htm" />
   <HelpKINode Title="Equality operator">
     <HelpKINode Title="HashSum(T).Equality Operator " Url="html/eaf59ea2-0813-5f79-5821-5bdb90267432.htm" />
     <HelpKINode Title="Matrix(T).Equality Operator " Url="html/32b1a743-4ea0-738e-e66f-7feea8b38632.htm" />
@@ -73,22 +131,106 @@
     <HelpKINode Title="Matrix(T).Equals Method " Url="html/934ec85f-4e11-4d16-b04b-81f560c90c4f.htm" />
     <HelpKINode Title="Range(T).Equals Method " Url="html/5afd09f2-5636-4e7d-c04c-568a5d4a95e8.htm" />
   </HelpKINode>
+  <HelpKINode Title="Favorites property" Url="html/a6b326cb-ad01-b9fb-c906-8cbb7fc46654.htm" />
+  <HelpKINode Title="Filled enumeration member" Url="html/1aabf572-fb2e-035d-72ca-76139878d272.htm" />
   <HelpKINode Title="FilterToRegularExpression method" Url="html/5ac71d60-d7b3-68bf-5467-401bdef4217f.htm" />
+  <HelpKINode Title="Finalize method" Url="html/b48a6956-17d4-d4fa-93ee-4208b6555305.htm" />
   <HelpKINode Title="First enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
+  <HelpKINode Title="FlagStreamReader class">
+    <HelpKINode Title="FlagStreamReader Class" Url="html/b27f7d9b-7a5b-225f-69fa-27c11dad9d1c.htm" />
+    <HelpKINode Title="about FlagStreamReader class" Url="html/b27f7d9b-7a5b-225f-69fa-27c11dad9d1c.htm" />
+    <HelpKINode Title="constructor" Url="html/17246908-a05b-b469-781a-7a24ae29ecc2.htm" />
+    <HelpKINode Title="methods" Url="html/9432c1f4-5422-dbc4-5619-3bb13c0aa19b.htm" />
+    <HelpKINode Title="properties" Url="html/ebd15d45-509c-9fe7-0f0a-3c9b4e734ba8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FlagStreamReader.FlagStreamReader constructor" Url="html/17246908-a05b-b469-781a-7a24ae29ecc2.htm" />
+  <HelpKINode Title="FlagStreamReader.InnerStream property" Url="html/8f7e4975-5588-90c6-23c8-ac25fc56d100.htm" />
+  <HelpKINode Title="FlagStreamReader.Read method" Url="html/9574cc41-f12f-9184-1292-5a03a676f4dc.htm" />
+  <HelpKINode Title="FlagStreamReader.Seek method" Url="html/6246bf3a-4827-4eed-19a9-9e001708c943.htm" />
+  <HelpKINode Title="FlagStreamWriter class">
+    <HelpKINode Title="FlagStreamWriter Class" Url="html/d24c0311-fd9e-de13-135c-6dff049d9b3b.htm" />
+    <HelpKINode Title="about FlagStreamWriter class" Url="html/d24c0311-fd9e-de13-135c-6dff049d9b3b.htm" />
+    <HelpKINode Title="constructor" Url="html/55ff9b15-21d3-13e7-0c41-ccfad838f275.htm" />
+    <HelpKINode Title="methods" Url="html/75bb9033-5fcf-a07a-1bd8-435c6fac359b.htm" />
+    <HelpKINode Title="properties" Url="html/38b1d539-33d2-30fc-7330-25bc2c57cead.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FlagStreamWriter.FlagStreamWriter constructor" Url="html/55ff9b15-21d3-13e7-0c41-ccfad838f275.htm" />
+  <HelpKINode Title="FlagStreamWriter.FlushBuffer method" Url="html/5fe3ac12-3c46-3342-2878-0d1a0367112b.htm" />
+  <HelpKINode Title="FlushBuffer method">
+    <HelpKINode Title="BitStreamWriter.FlushBuffer Method " Url="html/2f8d210f-b62a-14f7-2355-f7c3999e9991.htm" />
+    <HelpKINode Title="FlagStreamWriter.FlushBuffer Method " Url="html/5fe3ac12-3c46-3342-2878-0d1a0367112b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Fonts property" Url="html/53b46e16-d225-baa9-986e-ba629f90d0bd.htm" />
   <HelpKINode Title="FromBytes method" Url="html/6f4b083c-8e77-0f3b-8ef0-7d9543c62120.htm" />
   <HelpKINode Title="FromObject method" Url="html/c2fc0e43-c923-ab62-d86a-2ab2d035c8d4.htm" />
+  <HelpKINode Title="Full enumeration member" Url="html/1aabf572-fb2e-035d-72ca-76139878d272.htm" />
   <HelpKINode Title="GetArrayPart(Of T) method" Url="html/e14ef24b-8dc6-9bca-ec0e-816662bced6a.htm" />
   <HelpKINode Title="GetArrayPart&lt;T&gt; method" Url="html/e14ef24b-8dc6-9bca-ec0e-816662bced6a.htm" />
-  <HelpKINode Title="GetEnumerator method" Url="html/85d6fdde-ea9c-9917-ea84-ecfc075f2dbb.htm" />
+  <HelpKINode Title="GetChildren method">
+    <HelpKINode Title="ITree(T).GetChildren Method " Url="html/14a47c92-9445-8f7c-407c-6a632f7696af.htm" />
+    <HelpKINode Title="PreorderTree(T).GetChildren Method " Url="html/1a0ab8b6-111e-859d-59f9-879fb5adddf2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEnumerator method">
+    <HelpKINode Title="PreorderTree(T).GetEnumerator Method " Url="html/e96c5a7d-590c-8341-0571-9f530c74283b.htm" />
+    <HelpKINode Title="RingBuffer(T).GetEnumerator Method " Url="html/85d6fdde-ea9c-9917-ea84-ecfc075f2dbb.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetHashCode method">
     <HelpKINode Title="HashSum(T).GetHashCode Method " Url="html/4715b7ea-1e05-3d5e-84bc-7281d8bb34bf.htm" />
     <HelpKINode Title="Matrix(T).GetHashCode Method " Url="html/ba9f4653-b2a7-d0db-52b1-0c674edac28c.htm" />
     <HelpKINode Title="Range(T).GetHashCode Method " Url="html/9f0f3dd7-c724-0229-f3dd-e07ce3b73729.htm" />
   </HelpKINode>
+  <HelpKINode Title="GetHierarchy(Of T) method" Url="html/4aed9a15-a74c-0e3b-bdd1-490499226b14.htm" />
+  <HelpKINode Title="GetHierarchy&lt;T&gt; method" Url="html/4aed9a15-a74c-0e3b-bdd1-490499226b14.htm" />
+  <HelpKINode Title="GetInorder(Of T) method" Url="html/cc6ce8e2-5c41-b93c-080b-d712d066e090.htm" />
+  <HelpKINode Title="GetInorder&lt;T&gt; method" Url="html/cc6ce8e2-5c41-b93c-080b-d712d066e090.htm" />
+  <HelpKINode Title="GetLeft method" Url="html/c739da9a-0494-0eab-1bd9-ffa265a994d0.htm" />
+  <HelpKINode Title="GetLeftMost method">
+    <HelpKINode Title="ITree(T).GetLeftMost Method " Url="html/65b27274-8807-e2c8-79f0-33f6dea3dd49.htm" />
+    <HelpKINode Title="PreorderTree(T).GetLeftMost Method " Url="html/9d8297b4-d91d-32fb-c148-cbe0ef3d4691.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetNextLeft method">
+    <HelpKINode Title="ITree(T).GetNextLeft Method " Url="html/9e155fe8-e5f3-c853-476f-ee4a7a278071.htm" />
+    <HelpKINode Title="PreorderTree(T).GetNextLeft Method " Url="html/58231c19-98f2-d70e-6de4-72e537554c6f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetNextRight method">
+    <HelpKINode Title="ITree(T).GetNextRight Method " Url="html/0983466a-69f6-1f97-7fdc-67974039bac1.htm" />
+    <HelpKINode Title="PreorderTree(T).GetNextRight Method " Url="html/10aab29a-2731-b77f-ccc2-2e33e24c7fab.htm" />
+  </HelpKINode>
   <HelpKINode Title="GetNumber method" Url="html/e55942d7-69c2-847d-b8dd-f0e08290538e.htm" />
   <HelpKINode Title="GetObjectData method" Url="html/fb88a97a-27a6-3841-4d3f-cbe9f3c62380.htm" />
+  <HelpKINode Title="GetParent method">
+    <HelpKINode Title="ITree(T).GetParent Method " Url="html/0858578a-18f7-3489-04eb-08183481bd5b.htm" />
+    <HelpKINode Title="PreorderTree(T).GetParent Method " Url="html/e4c944d2-b747-b715-1ff8-1691324dbc8a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPostorder(Of T) method" Url="html/75ede725-f89f-84c3-45c1-fc665b397ba4.htm" />
+  <HelpKINode Title="GetPostorder&lt;T&gt; method" Url="html/75ede725-f89f-84c3-45c1-fc665b397ba4.htm" />
+  <HelpKINode Title="GetPreorder(Of T) method" Url="html/cca9d998-886e-021d-7dd1-7326bcf4c2f3.htm" />
+  <HelpKINode Title="GetPreorder&lt;T&gt; method" Url="html/cca9d998-886e-021d-7dd1-7326bcf4c2f3.htm" />
   <HelpKINode Title="GetRelativePath method" Url="html/2dd966dc-ca40-d3c5-230a-9e66ab3f94a2.htm" />
+  <HelpKINode Title="GetRight method" Url="html/e79d7460-43d5-99db-532f-dab7521dac2f.htm" />
   <HelpKINode Title="Hash property" Url="html/81f8061c-87ab-02e6-fee4-12713daf02f2.htm" />
+  <HelpKINode Title="HashStreamReader(Of T) class">
+    <HelpKINode Title="HashStreamReader(T) Class" Url="html/d188d49e-04e9-762e-a311-f3b5035592fe.htm" />
+    <HelpKINode Title="about HashStreamReader(Of T) class" Url="html/d188d49e-04e9-762e-a311-f3b5035592fe.htm" />
+    <HelpKINode Title="constructor" Url="html/3e2cb4bf-ea0b-5a8c-3858-075b2007109b.htm" />
+    <HelpKINode Title="methods" Url="html/7b3e7281-a70b-e855-c8d7-2f9169f79e1a.htm" />
+    <HelpKINode Title="properties" Url="html/e4ef8a58-698d-9499-4173-19a2c30f247a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HashStreamReader(Of T).BaseStream property" Url="html/e5fdde72-5dba-d34d-0033-1410f8bf2eaf.htm" />
+  <HelpKINode Title="HashStreamReader(Of T).HashStreamReader constructor" Url="html/3e2cb4bf-ea0b-5a8c-3858-075b2007109b.htm" />
+  <HelpKINode Title="HashStreamReader(Of T).Read method" Url="html/5f96e0ff-775d-72f9-d356-68c4d7ee8a06.htm" />
+  <HelpKINode Title="HashStreamReader(Of T).ReadAsync method" Url="html/05c4eaf1-744b-1ffc-97ef-83a8eb4ec98d.htm" />
+  <HelpKINode Title="HashStreamReader&lt;T&gt; class">
+    <HelpKINode Title="HashStreamReader(T) Class" Url="html/d188d49e-04e9-762e-a311-f3b5035592fe.htm" />
+    <HelpKINode Title="about HashStreamReader&lt;T&gt; class" Url="html/d188d49e-04e9-762e-a311-f3b5035592fe.htm" />
+    <HelpKINode Title="constructor" Url="html/3e2cb4bf-ea0b-5a8c-3858-075b2007109b.htm" />
+    <HelpKINode Title="methods" Url="html/7b3e7281-a70b-e855-c8d7-2f9169f79e1a.htm" />
+    <HelpKINode Title="properties" Url="html/e4ef8a58-698d-9499-4173-19a2c30f247a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HashStreamReader&lt;T&gt;.BaseStream property" Url="html/e5fdde72-5dba-d34d-0033-1410f8bf2eaf.htm" />
+  <HelpKINode Title="HashStreamReader&lt;T&gt;.HashStreamReader constructor" Url="html/3e2cb4bf-ea0b-5a8c-3858-075b2007109b.htm" />
+  <HelpKINode Title="HashStreamReader&lt;T&gt;.Read method" Url="html/5f96e0ff-775d-72f9-d356-68c4d7ee8a06.htm" />
+  <HelpKINode Title="HashStreamReader&lt;T&gt;.ReadAsync method" Url="html/05c4eaf1-744b-1ffc-97ef-83a8eb4ec98d.htm" />
   <HelpKINode Title="HashSum(Of T) structure">
     <HelpKINode Title="HashSum(T) Structure" Url="html/2ba12663-0b38-f3a5-8601-53777204340c.htm" />
     <HelpKINode Title="about HashSum(Of T) structure" Url="html/2ba12663-0b38-f3a5-8601-53777204340c.htm" />
@@ -127,15 +269,54 @@
   <HelpKINode Title="HashSum&lt;T&gt;.Hash property" Url="html/81f8061c-87ab-02e6-fee4-12713daf02f2.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.Inequality operator" Url="html/a72f6359-56f7-c5f4-b5ae-5d6a889d5aa6.htm" />
   <HelpKINode Title="HashSum&lt;T&gt;.ToString method" Url="html/a8aa671b-3c8d-19bc-b999-601f17b31443.htm" />
+  <HelpKINode Title="History property" Url="html/86d59d1b-bc6b-1b10-22fd-255d94ba7512.htm" />
+  <HelpKINode Title="IBinaryTree(Of T) interface">
+    <HelpKINode Title="IBinaryTree(T) Interface" Url="html/a3e02466-9649-48df-bf74-ae59ccd6cc63.htm" />
+    <HelpKINode Title="about IBinaryTree(Of T) interface" Url="html/a3e02466-9649-48df-bf74-ae59ccd6cc63.htm" />
+    <HelpKINode Title="methods" Url="html/937c0ca9-d4fa-86e2-cb6a-0c422e960e9a.htm" />
+    <HelpKINode Title="properties" Url="html/3afd6d14-11f6-7f8b-9db6-fad29b34eb66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBinaryTree(Of T).GetLeft method" Url="html/c739da9a-0494-0eab-1bd9-ffa265a994d0.htm" />
+  <HelpKINode Title="IBinaryTree(Of T).GetRight method" Url="html/e79d7460-43d5-99db-532f-dab7521dac2f.htm" />
+  <HelpKINode Title="IBinaryTree(Of T).Root property" Url="html/3f04e9b7-6407-f980-487e-3b7e89d7920e.htm" />
+  <HelpKINode Title="IBinaryTree&lt;T&gt; interface">
+    <HelpKINode Title="IBinaryTree(T) Interface" Url="html/a3e02466-9649-48df-bf74-ae59ccd6cc63.htm" />
+    <HelpKINode Title="about IBinaryTree&lt;T&gt; interface" Url="html/a3e02466-9649-48df-bf74-ae59ccd6cc63.htm" />
+    <HelpKINode Title="methods" Url="html/937c0ca9-d4fa-86e2-cb6a-0c422e960e9a.htm" />
+    <HelpKINode Title="properties" Url="html/3afd6d14-11f6-7f8b-9db6-fad29b34eb66.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBinaryTree&lt;T&gt;.GetLeft method" Url="html/c739da9a-0494-0eab-1bd9-ffa265a994d0.htm" />
+  <HelpKINode Title="IBinaryTree&lt;T&gt;.GetRight method" Url="html/e79d7460-43d5-99db-532f-dab7521dac2f.htm" />
+  <HelpKINode Title="IBinaryTree&lt;T&gt;.Root property" Url="html/3f04e9b7-6407-f980-487e-3b7e89d7920e.htm" />
+  <HelpKINode Title="IBinaryTreeNode(Of T) interface">
+    <HelpKINode Title="IBinaryTreeNode(T) Interface" Url="html/c2d531b6-165a-139b-4756-bbac71bcc794.htm" />
+    <HelpKINode Title="about IBinaryTreeNode(Of T) interface" Url="html/c2d531b6-165a-139b-4756-bbac71bcc794.htm" />
+    <HelpKINode Title="properties" Url="html/57250bc3-4162-375b-e1ee-55932c800552.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBinaryTreeNode(Of T).Left property" Url="html/f980e367-4396-cb2d-694e-5d1b60f4cbc8.htm" />
+  <HelpKINode Title="IBinaryTreeNode(Of T).Right property" Url="html/2a4cf79e-b8ca-1246-2a6a-70c6ec6a65f5.htm" />
+  <HelpKINode Title="IBinaryTreeNode&lt;T&gt; interface">
+    <HelpKINode Title="IBinaryTreeNode(T) Interface" Url="html/c2d531b6-165a-139b-4756-bbac71bcc794.htm" />
+    <HelpKINode Title="about IBinaryTreeNode&lt;T&gt; interface" Url="html/c2d531b6-165a-139b-4756-bbac71bcc794.htm" />
+    <HelpKINode Title="properties" Url="html/57250bc3-4162-375b-e1ee-55932c800552.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBinaryTreeNode&lt;T&gt;.Left property" Url="html/f980e367-4396-cb2d-694e-5d1b60f4cbc8.htm" />
+  <HelpKINode Title="IBinaryTreeNode&lt;T&gt;.Right property" Url="html/2a4cf79e-b8ca-1246-2a6a-70c6ec6a65f5.htm" />
   <HelpKINode Title="IdentityMatrix method" Url="html/360ef886-98bc-de61-b98c-a94d89974091.htm" />
-  <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method" Url="html/bdb75b49-e50a-9f81-58d8-2299588c7327.htm" />
+  <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method">
+    <HelpKINode Title="PreorderTree(T).IEnumerable.GetEnumerator Method " Url="html/830a99bc-725f-cf58-3e2f-61b61d47c9fc.htm" />
+    <HelpKINode Title="RingBuffer(T).IEnumerable.GetEnumerator Method " Url="html/bdb75b49-e50a-9f81-58d8-2299588c7327.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Index property" Url="html/948fb885-5e57-3bec-3000-d9593ab91116.htm" />
   <HelpKINode Title="Inequality operator">
     <HelpKINode Title="HashSum(T).Inequality Operator " Url="html/a72f6359-56f7-c5f4-b5ae-5d6a889d5aa6.htm" />
     <HelpKINode Title="Matrix(T).Inequality Operator " Url="html/e354dd76-a444-e854-351f-6f6869c2b2ab.htm" />
     <HelpKINode Title="Range(T).Inequality Operator " Url="html/31c41312-21f3-91fa-195b-8c91b75ec7b2.htm" />
   </HelpKINode>
+  <HelpKINode Title="InnerStream property" Url="html/8f7e4975-5588-90c6-23c8-ac25fc56d100.htm" />
   <HelpKINode Title="InsertArray(Of T) method" Url="html/f7021960-b713-5849-2b09-8e58a83a290f.htm" />
   <HelpKINode Title="InsertArray&lt;T&gt; method" Url="html/f7021960-b713-5849-2b09-8e58a83a290f.htm" />
+  <HelpKINode Title="InternetCache property" Url="html/3d7a5f5c-86b5-3577-7bc1-1968218f9e3b.htm" />
   <HelpKINode Title="InvalidSizeException class">
     <HelpKINode Title="InvalidSizeException Class" Url="html/e2f2c151-0226-3f11-1ac9-0d2c03ac0c3c.htm" />
     <HelpKINode Title="about InvalidSizeException class" Url="html/e2f2c151-0226-3f11-1ac9-0d2c03ac0c3c.htm" />
@@ -152,13 +333,73 @@
   <HelpKINode Title="IsInside method" Url="html/614fbe76-6869-486b-298a-38cf1e16ee07.htm" />
   <HelpKINode Title="IsReadOnly property" Url="html/9bf9273f-c78b-5c5c-256c-02c74bed4261.htm" />
   <HelpKINode Title="Item property">
+    <HelpKINode Title="BitStreamWriter.Item Property " Url="html/a00379d7-0a80-d401-b63d-73758b8d4a84.htm" />
+    <HelpKINode Title="ITree(T).Item Property " Url="html/f49535cb-e8cf-641e-b42e-59e5e9787741.htm" />
     <HelpKINode Title="MapTable(TIn, TOut).Item Property " Url="html/21511599-23e5-8725-fbbf-cb10a6c4bb7d.htm" />
     <HelpKINode Title="Matrix(T).Item Property " Url="html/5a954098-ad11-70f6-fdae-e3d75b1f9ace.htm" />
+    <HelpKINode Title="PreorderTree(T).Item Property " Url="html/187d69f9-3a4e-f8e6-203e-2008202a8106.htm" />
   </HelpKINode>
   <HelpKINode Title="ItemPositions enumeration" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
+  <HelpKINode Title="ITree(Of T) interface">
+    <HelpKINode Title="ITree(T) Interface" Url="html/4651fb0a-88ac-f8be-c92f-a45ab9e6003e.htm" />
+    <HelpKINode Title="about ITree(Of T) interface" Url="html/4651fb0a-88ac-f8be-c92f-a45ab9e6003e.htm" />
+    <HelpKINode Title="methods" Url="html/f2f82085-ed54-f4fa-b72a-0ce4f7453888.htm" />
+    <HelpKINode Title="properties" Url="html/ece3e154-8bff-ece6-8071-75c488c6c3f3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITree(Of T).Attach method" Url="html/74990182-d729-a3df-81b9-f92aa10054e4.htm" />
+  <HelpKINode Title="ITree(Of T).Detach method" Url="html/05725d8c-a057-8da8-42ea-0cdfdeec6a7b.htm" />
+  <HelpKINode Title="ITree(Of T).Empty property" Url="html/98207ca8-fc88-1861-3420-c55f3d7aae4d.htm" />
+  <HelpKINode Title="ITree(Of T).GetChildren method" Url="html/14a47c92-9445-8f7c-407c-6a632f7696af.htm" />
+  <HelpKINode Title="ITree(Of T).GetLeftMost method" Url="html/65b27274-8807-e2c8-79f0-33f6dea3dd49.htm" />
+  <HelpKINode Title="ITree(Of T).GetNextLeft method" Url="html/9e155fe8-e5f3-c853-476f-ee4a7a278071.htm" />
+  <HelpKINode Title="ITree(Of T).GetNextRight method" Url="html/0983466a-69f6-1f97-7fdc-67974039bac1.htm" />
+  <HelpKINode Title="ITree(Of T).GetParent method" Url="html/0858578a-18f7-3489-04eb-08183481bd5b.htm" />
+  <HelpKINode Title="ITree(Of T).Item property" Url="html/f49535cb-e8cf-641e-b42e-59e5e9787741.htm" />
+  <HelpKINode Title="ITree(Of T).Root property" Url="html/1ed196b5-2744-acd6-b27d-f5a8ba76a570.htm" />
+  <HelpKINode Title="ITree&lt;T&gt; interface">
+    <HelpKINode Title="ITree(T) Interface" Url="html/4651fb0a-88ac-f8be-c92f-a45ab9e6003e.htm" />
+    <HelpKINode Title="about ITree&lt;T&gt; interface" Url="html/4651fb0a-88ac-f8be-c92f-a45ab9e6003e.htm" />
+    <HelpKINode Title="methods" Url="html/f2f82085-ed54-f4fa-b72a-0ce4f7453888.htm" />
+    <HelpKINode Title="properties" Url="html/ece3e154-8bff-ece6-8071-75c488c6c3f3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITree&lt;T&gt;.Attach method" Url="html/74990182-d729-a3df-81b9-f92aa10054e4.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.Detach method" Url="html/05725d8c-a057-8da8-42ea-0cdfdeec6a7b.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.Empty property" Url="html/98207ca8-fc88-1861-3420-c55f3d7aae4d.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.GetChildren method" Url="html/14a47c92-9445-8f7c-407c-6a632f7696af.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.GetLeftMost method" Url="html/65b27274-8807-e2c8-79f0-33f6dea3dd49.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.GetNextLeft method" Url="html/9e155fe8-e5f3-c853-476f-ee4a7a278071.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.GetNextRight method" Url="html/0983466a-69f6-1f97-7fdc-67974039bac1.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.GetParent method" Url="html/0858578a-18f7-3489-04eb-08183481bd5b.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.Item property" Url="html/f49535cb-e8cf-641e-b42e-59e5e9787741.htm" />
+  <HelpKINode Title="ITree&lt;T&gt;.Root property" Url="html/1ed196b5-2744-acd6-b27d-f5a8ba76a570.htm" />
+  <HelpKINode Title="ITreeNode(Of T) interface">
+    <HelpKINode Title="ITreeNode(T) Interface" Url="html/2667653c-9d57-22aa-901a-34d12eeca709.htm" />
+    <HelpKINode Title="about ITreeNode(Of T) interface" Url="html/2667653c-9d57-22aa-901a-34d12eeca709.htm" />
+    <HelpKINode Title="properties" Url="html/7110c675-bf62-1080-76c6-04bca16ed757.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITreeNode(Of T).Children property" Url="html/14a39f3f-42f4-f302-3e5b-dc5af956c663.htm" />
+  <HelpKINode Title="ITreeNode(Of T).Data property" Url="html/bcbc6140-e846-0d46-c866-d8e8cbda86d3.htm" />
+  <HelpKINode Title="ITreeNode(Of T).Index property" Url="html/948fb885-5e57-3bec-3000-d9593ab91116.htm" />
+  <HelpKINode Title="ITreeNode(Of T).NextLeft property" Url="html/8201e6f1-9908-1338-46e1-3ebb5d2ef874.htm" />
+  <HelpKINode Title="ITreeNode(Of T).NextRight property" Url="html/34c3c03c-36ee-84c8-08f4-9e4d88da10c5.htm" />
+  <HelpKINode Title="ITreeNode(Of T).Parent property" Url="html/ed9d60f6-cbfc-7234-3d12-fde9d3bf1e68.htm" />
+  <HelpKINode Title="ITreeNode&lt;T&gt; interface">
+    <HelpKINode Title="ITreeNode(T) Interface" Url="html/2667653c-9d57-22aa-901a-34d12eeca709.htm" />
+    <HelpKINode Title="about ITreeNode&lt;T&gt; interface" Url="html/2667653c-9d57-22aa-901a-34d12eeca709.htm" />
+    <HelpKINode Title="properties" Url="html/7110c675-bf62-1080-76c6-04bca16ed757.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITreeNode&lt;T&gt;.Children property" Url="html/14a39f3f-42f4-f302-3e5b-dc5af956c663.htm" />
+  <HelpKINode Title="ITreeNode&lt;T&gt;.Data property" Url="html/bcbc6140-e846-0d46-c866-d8e8cbda86d3.htm" />
+  <HelpKINode Title="ITreeNode&lt;T&gt;.Index property" Url="html/948fb885-5e57-3bec-3000-d9593ab91116.htm" />
+  <HelpKINode Title="ITreeNode&lt;T&gt;.NextLeft property" Url="html/8201e6f1-9908-1338-46e1-3ebb5d2ef874.htm" />
+  <HelpKINode Title="ITreeNode&lt;T&gt;.NextRight property" Url="html/34c3c03c-36ee-84c8-08f4-9e4d88da10c5.htm" />
+  <HelpKINode Title="ITreeNode&lt;T&gt;.Parent property" Url="html/ed9d60f6-cbfc-7234-3d12-fde9d3bf1e68.htm" />
   <HelpKINode Title="JoinArrays(Of T) method" Url="html/ad10c859-0998-bdfb-2982-53b66500b527.htm" />
   <HelpKINode Title="JoinArrays&lt;T&gt; method" Url="html/ad10c859-0998-bdfb-2982-53b66500b527.htm" />
   <HelpKINode Title="Last enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
+  <HelpKINode Title="Left property" Url="html/f980e367-4396-cb2d-694e-5d1b60f4cbc8.htm" />
+  <HelpKINode Title="LocalApplicationData property" Url="html/035034e3-941a-0e98-6168-0f5a2a43cc95.htm" />
+  <HelpKINode Title="LocalizedResources property" Url="html/59910a2d-e591-35fe-4a4f-01c94f664b6a.htm" />
   <HelpKINode Title="MapTable(Of TIn, TOut) class">
     <HelpKINode Title="MapTable(TIn, TOut) Class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
     <HelpKINode Title="about MapTable(Of TIn, TOut) class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
@@ -236,15 +477,45 @@
   <HelpKINode Title="Minimum property" Url="html/6d4262ec-e333-8efc-1796-713526e2d3b7.htm" />
   <HelpKINode Title="Multiply method" Url="html/7f879477-1356-b031-b84e-66357eaef0de.htm" />
   <HelpKINode Title="Multiply operator" Url="html/9c127391-c731-a516-6b52-f47f0ee868b3.htm" />
+  <HelpKINode Title="MyComputer property" Url="html/f3684d90-c47e-685b-c997-9e4a5d933873.htm" />
+  <HelpKINode Title="MyDocuments property" Url="html/984c11d2-9890-7b9e-501d-adb66caa09ee.htm" />
+  <HelpKINode Title="MyMusic property" Url="html/86c22c8c-f671-d497-d76c-2f3830f930fb.htm" />
+  <HelpKINode Title="MyPictures property" Url="html/3bf2ed89-fb9a-63cb-59a1-2048d6826c5e.htm" />
+  <HelpKINode Title="MyVideos property" Url="html/5b85f628-7520-a5ad-4a95-98e1cf635965.htm" />
+  <HelpKINode Title="NetworkShortcuts property" Url="html/c05140ae-137d-9abe-4089-3223e6eeda2b.htm" />
+  <HelpKINode Title="NextLeft property" Url="html/8201e6f1-9908-1338-46e1-3ebb5d2ef874.htm" />
+  <HelpKINode Title="NextRight property" Url="html/34c3c03c-36ee-84c8-08f4-9e4d88da10c5.htm" />
   <HelpKINode Title="None enumeration member" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
   <HelpKINode Title="Output method" Url="html/a2c0e888-60dc-276f-dbab-3acf8585cd4f.htm" />
   <HelpKINode Title="ParamName property" Url="html/c6b79bbf-6ac5-7018-f647-1ac3d1fb174b.htm" />
+  <HelpKINode Title="Parent property" Url="html/ed9d60f6-cbfc-7234-3d12-fde9d3bf1e68.htm" />
+  <HelpKINode Title="Personal property" Url="html/02b9701f-cc67-87b6-82b9-f8f444968c23.htm" />
   <HelpKINode Title="phirSOFT.Common namespace" Url="html/e822f0a1-f524-76ce-c72d-9a62b8c4e673.htm" />
   <HelpKINode Title="phirSOFT.Common.ArrayTools class" Url="html/57569303-b3dd-8201-fb50-fabefa82e02a.htm" />
   <HelpKINode Title="phirSOFT.Common.ConsoleTools class" Url="html/73f28299-bdf1-dcea-23c0-f3bcac5cdf7d.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs namespace" Url="html/c07c3380-b736-a486-e6cd-e1d6194caef0.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.IBinaryTree(Of T) interface" Url="html/a3e02466-9649-48df-bf74-ae59ccd6cc63.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.IBinaryTree&lt;T&gt; interface" Url="html/a3e02466-9649-48df-bf74-ae59ccd6cc63.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.IBinaryTreeNode(Of T) interface" Url="html/c2d531b6-165a-139b-4756-bbac71bcc794.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.IBinaryTreeNode&lt;T&gt; interface" Url="html/c2d531b6-165a-139b-4756-bbac71bcc794.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.ITree(Of T) interface" Url="html/4651fb0a-88ac-f8be-c92f-a45ab9e6003e.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.ITree&lt;T&gt; interface" Url="html/4651fb0a-88ac-f8be-c92f-a45ab9e6003e.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.ITreeNode(Of T) interface" Url="html/2667653c-9d57-22aa-901a-34d12eeca709.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.ITreeNode&lt;T&gt; interface" Url="html/2667653c-9d57-22aa-901a-34d12eeca709.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.PreorderTree(Of T) class" Url="html/ed633c2e-c02a-5375-a3ba-9c9f498aefdd.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.PreorderTree&lt;T&gt; class" Url="html/ed633c2e-c02a-5375-a3ba-9c9f498aefdd.htm" />
+  <HelpKINode Title="phirSOFT.Common.Graphs.TreeAlgorithm class" Url="html/396c474e-6f4f-b899-32ae-bbbf8a45325c.htm" />
   <HelpKINode Title="phirSOFT.Common.HashSum(Of T) structure" Url="html/2ba12663-0b38-f3a5-8601-53777204340c.htm" />
   <HelpKINode Title="phirSOFT.Common.HashSum&lt;T&gt; structure" Url="html/2ba12663-0b38-f3a5-8601-53777204340c.htm" />
   <HelpKINode Title="phirSOFT.Common.InvalidSizeException class" Url="html/e2f2c151-0226-3f11-1ac9-0d2c03ac0c3c.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO namespace" Url="html/86fda73f-7fcf-babe-00ff-ee41746faf21.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO.BitStreamWriter class" Url="html/bbc4118a-c6e3-f350-f1ad-6f1c7839ca1a.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO.BufferState enumeration" Url="html/1aabf572-fb2e-035d-72ca-76139878d272.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO.FlagStreamReader class" Url="html/b27f7d9b-7a5b-225f-69fa-27c11dad9d1c.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO.FlagStreamWriter class" Url="html/d24c0311-fd9e-de13-135c-6dff049d9b3b.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO.HashStreamReader(Of T) class" Url="html/d188d49e-04e9-762e-a311-f3b5035592fe.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO.HashStreamReader&lt;T&gt; class" Url="html/d188d49e-04e9-762e-a311-f3b5035592fe.htm" />
+  <HelpKINode Title="phirSOFT.Common.IO.SpecialDirectories class" Url="html/40089258-6867-5663-0f12-7dff2fbb34a5.htm" />
   <HelpKINode Title="phirSOFT.Common.ItemPositions enumeration" Url="html/591b2d7c-6f51-86dc-94b8-968018b8b1dd.htm" />
   <HelpKINode Title="phirSOFT.Common.MapTable(Of TIn, TOut) class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
   <HelpKINode Title="phirSOFT.Common.MapTable&lt;TIn, TOut&gt; class" Url="html/ec2ec319-d784-3b65-a9cd-ae2e8df998a7.htm" />
@@ -264,8 +535,52 @@
   <HelpKINode Title="phirSOFT.Common.RingBuffer&lt;T&gt;.RemoveStrategies.RemoveStrategy delegate" Url="html/ee0c027b-da0b-410b-db4e-6ca3ad4ebf2d.htm" />
   <HelpKINode Title="phirSOFT.Common.SerializationTools class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
   <HelpKINode Title="phirSOFT.Common.TextTools class" Url="html/2e395fd1-d992-5ecb-0f70-e13af06aba17.htm" />
+  <HelpKINode Title="PreorderTree(Of T) class">
+    <HelpKINode Title="PreorderTree(T) Class" Url="html/ed633c2e-c02a-5375-a3ba-9c9f498aefdd.htm" />
+    <HelpKINode Title="about PreorderTree(Of T) class" Url="html/ed633c2e-c02a-5375-a3ba-9c9f498aefdd.htm" />
+    <HelpKINode Title="constructor" Url="html/21fcdc3c-3ced-f7e0-473f-1f73d82f58f9.htm" />
+    <HelpKINode Title="methods" Url="html/16e35912-5fd9-aea3-18bc-bd1b1fa0f10b.htm" />
+    <HelpKINode Title="properties" Url="html/4832a077-e02f-2456-0fb8-9d8e5959945c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PreorderTree(Of T).Attach method" Url="html/4b6f0742-c4de-49ca-786b-86f42c5c6d3d.htm" />
+  <HelpKINode Title="PreorderTree(Of T).Detach method" Url="html/5633376d-f885-af97-befd-b94b2997bf7d.htm" />
+  <HelpKINode Title="PreorderTree(Of T).Empty property" Url="html/c5d1302a-71da-968b-4aba-f7802e8b7963.htm" />
+  <HelpKINode Title="PreorderTree(Of T).GetChildren method" Url="html/1a0ab8b6-111e-859d-59f9-879fb5adddf2.htm" />
+  <HelpKINode Title="PreorderTree(Of T).GetEnumerator method" Url="html/e96c5a7d-590c-8341-0571-9f530c74283b.htm" />
+  <HelpKINode Title="PreorderTree(Of T).GetLeftMost method" Url="html/9d8297b4-d91d-32fb-c148-cbe0ef3d4691.htm" />
+  <HelpKINode Title="PreorderTree(Of T).GetNextLeft method" Url="html/58231c19-98f2-d70e-6de4-72e537554c6f.htm" />
+  <HelpKINode Title="PreorderTree(Of T).GetNextRight method" Url="html/10aab29a-2731-b77f-ccc2-2e33e24c7fab.htm" />
+  <HelpKINode Title="PreorderTree(Of T).GetParent method" Url="html/e4c944d2-b747-b715-1ff8-1691324dbc8a.htm" />
+  <HelpKINode Title="PreorderTree(Of T).IEnumerable.GetEnumerator explicitly implemented method" Url="html/830a99bc-725f-cf58-3e2f-61b61d47c9fc.htm" />
+  <HelpKINode Title="PreorderTree(Of T).Item property" Url="html/187d69f9-3a4e-f8e6-203e-2008202a8106.htm" />
+  <HelpKINode Title="PreorderTree(Of T).PreorderTree constructor" Url="html/21fcdc3c-3ced-f7e0-473f-1f73d82f58f9.htm" />
+  <HelpKINode Title="PreorderTree(Of T).Root property" Url="html/22a83aaa-f425-28f7-960f-7809dfa71409.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt; class">
+    <HelpKINode Title="PreorderTree(T) Class" Url="html/ed633c2e-c02a-5375-a3ba-9c9f498aefdd.htm" />
+    <HelpKINode Title="about PreorderTree&lt;T&gt; class" Url="html/ed633c2e-c02a-5375-a3ba-9c9f498aefdd.htm" />
+    <HelpKINode Title="constructor" Url="html/21fcdc3c-3ced-f7e0-473f-1f73d82f58f9.htm" />
+    <HelpKINode Title="methods" Url="html/16e35912-5fd9-aea3-18bc-bd1b1fa0f10b.htm" />
+    <HelpKINode Title="properties" Url="html/4832a077-e02f-2456-0fb8-9d8e5959945c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PreorderTree&lt;T&gt;.Attach method" Url="html/4b6f0742-c4de-49ca-786b-86f42c5c6d3d.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.Detach method" Url="html/5633376d-f885-af97-befd-b94b2997bf7d.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.Empty property" Url="html/c5d1302a-71da-968b-4aba-f7802e8b7963.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.GetChildren method" Url="html/1a0ab8b6-111e-859d-59f9-879fb5adddf2.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.GetEnumerator method" Url="html/e96c5a7d-590c-8341-0571-9f530c74283b.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.GetLeftMost method" Url="html/9d8297b4-d91d-32fb-c148-cbe0ef3d4691.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.GetNextLeft method" Url="html/58231c19-98f2-d70e-6de4-72e537554c6f.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.GetNextRight method" Url="html/10aab29a-2731-b77f-ccc2-2e33e24c7fab.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.GetParent method" Url="html/e4c944d2-b747-b715-1ff8-1691324dbc8a.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.IEnumerable.GetEnumerator explicitly implemented method" Url="html/830a99bc-725f-cf58-3e2f-61b61d47c9fc.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.Item property" Url="html/187d69f9-3a4e-f8e6-203e-2008202a8106.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.PreorderTree constructor" Url="html/21fcdc3c-3ced-f7e0-473f-1f73d82f58f9.htm" />
+  <HelpKINode Title="PreorderTree&lt;T&gt;.Root property" Url="html/22a83aaa-f425-28f7-960f-7809dfa71409.htm" />
   <HelpKINode Title="PrintArray method" Url="html/9a2d6c3b-a5ef-1ae9-662b-61f82f03d42e.htm" />
   <HelpKINode Title="PrintAsNumber method" Url="html/4ddb8ce4-0dc2-34b7-8ae7-5f721e6938b4.htm" />
+  <HelpKINode Title="PrinterShortcuts property" Url="html/88acfce1-911f-cb5a-48be-13401c986853.htm" />
+  <HelpKINode Title="ProgramFiles property" Url="html/593460c2-7482-fa7e-df5f-c4a42e359fa7.htm" />
+  <HelpKINode Title="ProgramFilesX86 property" Url="html/52af5c68-2b2f-e716-3aaf-5ce760722589.htm" />
+  <HelpKINode Title="Programs property" Url="html/fec60926-5d09-cccb-86d3-e12d558ea076.htm" />
   <HelpKINode Title="Prompt method" Url="html/a6e384c3-2c69-5f36-23a2-87176126adbd.htm" />
   <HelpKINode Title="PromptLogo method" Url="html/f7396237-b16d-2e65-2a08-5773d82392f4.htm" />
   <HelpKINode Title="Range(Of T) structure">
@@ -311,12 +626,20 @@
   <HelpKINode Title="RangeTypeConverter.CanConvertFrom method" Url="html/99f9c186-ce5f-49a1-24fc-b902578a2669.htm" />
   <HelpKINode Title="RangeTypeConverter.ConvertFrom method" Url="html/ac9b6847-4316-1de7-dff1-fbe13d9117dd.htm" />
   <HelpKINode Title="RangeTypeConverter.RangeTypeConverter constructor" Url="html/c87527fe-52bd-418a-c1be-2329b035b25b.htm" />
+  <HelpKINode Title="Read method">
+    <HelpKINode Title="FlagStreamReader.Read Method " Url="html/9574cc41-f12f-9184-1292-5a03a676f4dc.htm" />
+    <HelpKINode Title="HashStreamReader(T).Read Method " Url="html/5f96e0ff-775d-72f9-d356-68c4d7ee8a06.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReadAsync method" Url="html/05c4eaf1-744b-1ffc-97ef-83a8eb4ec98d.htm" />
+  <HelpKINode Title="Recent property" Url="html/563999f3-4e57-c436-991b-34f8a4956ab5.htm" />
   <HelpKINode Title="Remove method" Url="html/f51b88c2-7502-70cb-ac1d-f7a66da48d19.htm" />
   <HelpKINode Title="RemoveStrategies class">
     <HelpKINode Title="methods" Url="html/fa8b8017-8497-c4cc-6894-dcea90a30343.htm" />
   </HelpKINode>
   <HelpKINode Title="RemoveStrategy property" Url="html/fee7890c-e544-7246-36e7-36543cb7f42e.htm" />
   <HelpKINode Title="RequestedSize property" Url="html/89ae8211-fadd-152f-0fd9-ea9fed95d683.htm" />
+  <HelpKINode Title="Resources property" Url="html/db0d09b2-d7b1-f63d-61bc-2475fc790645.htm" />
+  <HelpKINode Title="Right property" Url="html/2a4cf79e-b8ca-1246-2a6a-70c6ec6a65f5.htm" />
   <HelpKINode Title="RingBuffer(Of T) class">
     <HelpKINode Title="RingBuffer(T) Class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
     <HelpKINode Title="about RingBuffer(Of T) class" Url="html/cf4d0827-56bc-ba1d-fdd3-fe5c89816967.htm" />
@@ -369,7 +692,14 @@
   <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategies.ShiftStrategy method" Url="html/066ec296-8d4c-b776-3774-a526b908507f.htm" />
   <HelpKINode Title="RingBuffer&lt;T&gt;.RemoveStrategy property" Url="html/fee7890c-e544-7246-36e7-36543cb7f42e.htm" />
   <HelpKINode Title="RingBuffer&lt;T&gt;.RingBuffer constructor" Url="html/a452183d-e3d6-5c5b-3ec0-171ade25f654.htm" />
+  <HelpKINode Title="Root property">
+    <HelpKINode Title="IBinaryTree(T).Root Property " Url="html/3f04e9b7-6407-f980-487e-3b7e89d7920e.htm" />
+    <HelpKINode Title="ITree(T).Root Property " Url="html/1ed196b5-2744-acd6-b27d-f5a8ba76a570.htm" />
+    <HelpKINode Title="PreorderTree(T).Root Property " Url="html/22a83aaa-f425-28f7-960f-7809dfa71409.htm" />
+  </HelpKINode>
   <HelpKINode Title="Rows property" Url="html/97b0de81-d299-2861-0268-b8dcd8e81347.htm" />
+  <HelpKINode Title="Seek method" Url="html/6246bf3a-4827-4eed-19a9-9e001708c943.htm" />
+  <HelpKINode Title="SendTo property" Url="html/15d8f638-70a6-fd98-ba5a-0f8e8222874b.htm" />
   <HelpKINode Title="SerializationTools class">
     <HelpKINode Title="SerializationTools Class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
     <HelpKINode Title="about SerializationTools class" Url="html/07f96595-94d5-7ac8-669d-c7a132fc682e.htm" />
@@ -382,7 +712,62 @@
   <HelpKINode Title="Serialize method" Url="html/a4ae2d11-b1ff-45a4-12b2-7d470889dcb2.htm" />
   <HelpKINode Title="SerializeObject method" Url="html/d056bc5f-421f-3264-6721-a64ffe794d9b.htm" />
   <HelpKINode Title="ShiftStrategy method" Url="html/066ec296-8d4c-b776-3774-a526b908507f.htm" />
+  <HelpKINode Title="SpecialDirectories class">
+    <HelpKINode Title="SpecialDirectories Class" Url="html/40089258-6867-5663-0f12-7dff2fbb34a5.htm" />
+    <HelpKINode Title="about SpecialDirectories class" Url="html/40089258-6867-5663-0f12-7dff2fbb34a5.htm" />
+    <HelpKINode Title="properties" Url="html/e7b998e8-5884-a1f0-7228-7ad74db7061f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpecialDirectories.AdminTool property" Url="html/b734d943-e986-c178-8880-57e325493c77.htm" />
+  <HelpKINode Title="SpecialDirectories.ApplicationData property" Url="html/a16b2012-a455-19d1-3ee4-0197cfc4ac33.htm" />
+  <HelpKINode Title="SpecialDirectories.CDBurning property" Url="html/cc316185-25fc-f89b-f563-aef710e7fb87.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonAdminTools property" Url="html/fb5c02c6-f535-ffff-b40e-a7cf4703ea82.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonApplicationData property" Url="html/8e1c0b6a-1999-3650-224b-a84137a65951.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonDesktopDirectory property" Url="html/e6ad4695-5863-8ad3-f8a7-51ccfac34b20.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonDocuments property" Url="html/a9cde87b-b4f7-a9a1-dffc-e3d9e7cfd908.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonMusic property" Url="html/1b9e3ee5-2c55-713f-74e6-39480a65e4a6.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonOemLinks property" Url="html/432dc6c5-4d83-8bf1-4686-6838bd364c81.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonPictures property" Url="html/6fdf2c5e-8dc4-8972-bec9-6eace133dc62.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonProgramFiles property" Url="html/a320e2dc-ea67-fb04-a081-309cff3b4fef.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonProgramFilesX86 property" Url="html/d69ad85b-cf69-eb5f-5a40-b6e63654e252.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonPrograms property" Url="html/16c2c24c-7f59-8af5-efde-6efe46ff23bd.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonStartMenu property" Url="html/02044575-1fa7-bda1-0dc5-7947e035b6ae.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonStartup property" Url="html/bbdae5f2-80da-2fa7-ee8a-dc30f32c477b.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonTemplates property" Url="html/6b576dcc-4429-82f8-a527-277d51d5ec72.htm" />
+  <HelpKINode Title="SpecialDirectories.CommonVideos property" Url="html/fc200b5c-04c4-953f-d8ef-887d1ad6d33a.htm" />
+  <HelpKINode Title="SpecialDirectories.Cookies property" Url="html/e02b63ac-73b9-9343-a545-1089f55fc537.htm" />
+  <HelpKINode Title="SpecialDirectories.Desktop property" Url="html/c82a6ecb-1bba-17b2-17d5-29509b10c351.htm" />
+  <HelpKINode Title="SpecialDirectories.DesktopDirectory property" Url="html/0edbd8e2-2604-bbe4-ea30-db7f7fa80620.htm" />
+  <HelpKINode Title="SpecialDirectories.Favorites property" Url="html/a6b326cb-ad01-b9fb-c906-8cbb7fc46654.htm" />
+  <HelpKINode Title="SpecialDirectories.Fonts property" Url="html/53b46e16-d225-baa9-986e-ba629f90d0bd.htm" />
+  <HelpKINode Title="SpecialDirectories.History property" Url="html/86d59d1b-bc6b-1b10-22fd-255d94ba7512.htm" />
+  <HelpKINode Title="SpecialDirectories.InternetCache property" Url="html/3d7a5f5c-86b5-3577-7bc1-1968218f9e3b.htm" />
+  <HelpKINode Title="SpecialDirectories.LocalApplicationData property" Url="html/035034e3-941a-0e98-6168-0f5a2a43cc95.htm" />
+  <HelpKINode Title="SpecialDirectories.LocalizedResources property" Url="html/59910a2d-e591-35fe-4a4f-01c94f664b6a.htm" />
+  <HelpKINode Title="SpecialDirectories.MyComputer property" Url="html/f3684d90-c47e-685b-c997-9e4a5d933873.htm" />
+  <HelpKINode Title="SpecialDirectories.MyDocuments property" Url="html/984c11d2-9890-7b9e-501d-adb66caa09ee.htm" />
+  <HelpKINode Title="SpecialDirectories.MyMusic property" Url="html/86c22c8c-f671-d497-d76c-2f3830f930fb.htm" />
+  <HelpKINode Title="SpecialDirectories.MyPictures property" Url="html/3bf2ed89-fb9a-63cb-59a1-2048d6826c5e.htm" />
+  <HelpKINode Title="SpecialDirectories.MyVideos property" Url="html/5b85f628-7520-a5ad-4a95-98e1cf635965.htm" />
+  <HelpKINode Title="SpecialDirectories.NetworkShortcuts property" Url="html/c05140ae-137d-9abe-4089-3223e6eeda2b.htm" />
+  <HelpKINode Title="SpecialDirectories.Personal property" Url="html/02b9701f-cc67-87b6-82b9-f8f444968c23.htm" />
+  <HelpKINode Title="SpecialDirectories.PrinterShortcuts property" Url="html/88acfce1-911f-cb5a-48be-13401c986853.htm" />
+  <HelpKINode Title="SpecialDirectories.ProgramFiles property" Url="html/593460c2-7482-fa7e-df5f-c4a42e359fa7.htm" />
+  <HelpKINode Title="SpecialDirectories.ProgramFilesX86 property" Url="html/52af5c68-2b2f-e716-3aaf-5ce760722589.htm" />
+  <HelpKINode Title="SpecialDirectories.Programs property" Url="html/fec60926-5d09-cccb-86d3-e12d558ea076.htm" />
+  <HelpKINode Title="SpecialDirectories.Recent property" Url="html/563999f3-4e57-c436-991b-34f8a4956ab5.htm" />
+  <HelpKINode Title="SpecialDirectories.Resources property" Url="html/db0d09b2-d7b1-f63d-61bc-2475fc790645.htm" />
+  <HelpKINode Title="SpecialDirectories.SendTo property" Url="html/15d8f638-70a6-fd98-ba5a-0f8e8222874b.htm" />
+  <HelpKINode Title="SpecialDirectories.StartMenu property" Url="html/9584d189-a2ad-6a59-aaf2-91a16ed1b54b.htm" />
+  <HelpKINode Title="SpecialDirectories.System property" Url="html/b2160788-22fe-b5d9-aa61-f9270268358d.htm" />
+  <HelpKINode Title="SpecialDirectories.SystemX86 property" Url="html/eea522c0-8a79-8f7f-4d1f-6da0d04b437f.htm" />
+  <HelpKINode Title="SpecialDirectories.Templates property" Url="html/a426c94f-3bba-28dd-5282-fa8ea6a1017f.htm" />
+  <HelpKINode Title="SpecialDirectories.UserProfile property" Url="html/1d7d74f4-7467-e55a-4b9e-84080365485f.htm" />
+  <HelpKINode Title="SpecialDirectories.Windows property" Url="html/cbddaecf-9eaf-97ca-5658-57e2a6f2c6df.htm" />
+  <HelpKINode Title="StartMenu property" Url="html/9584d189-a2ad-6a59-aaf2-91a16ed1b54b.htm" />
   <HelpKINode Title="StringAlignmentTable property" Url="html/858c7238-359a-115c-32b1-3353c7a43a1e.htm" />
+  <HelpKINode Title="System property" Url="html/b2160788-22fe-b5d9-aa61-f9270268358d.htm" />
+  <HelpKINode Title="SystemX86 property" Url="html/eea522c0-8a79-8f7f-4d1f-6da0d04b437f.htm" />
+  <HelpKINode Title="Templates property" Url="html/a426c94f-3bba-28dd-5282-fa8ea6a1017f.htm" />
   <HelpKINode Title="TextFormatTable property" Url="html/7b68a698-6d87-ad36-252e-c8970a3376e7.htm" />
   <HelpKINode Title="TextTools class">
     <HelpKINode Title="TextTools Class" Url="html/2e395fd1-d992-5ecb-0f70-e13af06aba17.htm" />
@@ -406,8 +791,26 @@
   <HelpKINode Title="TranslateAlignment method" Url="html/c737d82e-337c-0923-0e44-66b88234597d.htm" />
   <HelpKINode Title="TranslateAlignmentToTextFormatFlags method" Url="html/d82e1b2f-52bb-506b-5e8c-f8686f4dc5a0.htm" />
   <HelpKINode Title="TranslateTrimmingToTextFormatFlag method" Url="html/e79f8827-3303-f74e-fe85-ce8352fb8c8b.htm" />
+  <HelpKINode Title="TreeAlgorithm class">
+    <HelpKINode Title="TreeAlgorithm Class" Url="html/396c474e-6f4f-b899-32ae-bbbf8a45325c.htm" />
+    <HelpKINode Title="about TreeAlgorithm class" Url="html/396c474e-6f4f-b899-32ae-bbbf8a45325c.htm" />
+    <HelpKINode Title="methods" Url="html/5638280c-e45d-4272-87e3-d5fa4e7c430e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TreeAlgorithm.GetHierarchy(Of T) method" Url="html/4aed9a15-a74c-0e3b-bdd1-490499226b14.htm" />
+  <HelpKINode Title="TreeAlgorithm.GetHierarchy&lt;T&gt; method" Url="html/4aed9a15-a74c-0e3b-bdd1-490499226b14.htm" />
+  <HelpKINode Title="TreeAlgorithm.GetInorder(Of T) method" Url="html/cc6ce8e2-5c41-b93c-080b-d712d066e090.htm" />
+  <HelpKINode Title="TreeAlgorithm.GetInorder&lt;T&gt; method" Url="html/cc6ce8e2-5c41-b93c-080b-d712d066e090.htm" />
+  <HelpKINode Title="TreeAlgorithm.GetPostorder(Of T) method" Url="html/75ede725-f89f-84c3-45c1-fc665b397ba4.htm" />
+  <HelpKINode Title="TreeAlgorithm.GetPostorder&lt;T&gt; method" Url="html/75ede725-f89f-84c3-45c1-fc665b397ba4.htm" />
+  <HelpKINode Title="TreeAlgorithm.GetPreorder(Of T) method" Url="html/cca9d998-886e-021d-7dd1-7326bcf4c2f3.htm" />
+  <HelpKINode Title="TreeAlgorithm.GetPreorder&lt;T&gt; method" Url="html/cca9d998-886e-021d-7dd1-7326bcf4c2f3.htm" />
+  <HelpKINode Title="Unknown enumeration member" Url="html/1aabf572-fb2e-035d-72ca-76139878d272.htm" />
+  <HelpKINode Title="UserProfile property" Url="html/1d7d74f4-7467-e55a-4b9e-84080365485f.htm" />
   <HelpKINode Title="WaitForAnyKey method" Url="html/d627cf17-e791-ef2a-64ae-654d5f0d16da.htm" />
   <HelpKINode Title="WaitForSpecificKeys method" Url="html/bd2dde3f-65a4-f325-84a0-51d09e0d688f.htm" />
+  <HelpKINode Title="Windows property" Url="html/cbddaecf-9eaf-97ca-5658-57e2a6f2c6df.htm" />
+  <HelpKINode Title="Write method" Url="html/98df2086-e95f-7bb0-7a28-214c2c7a6cfb.htm" />
+  <HelpKINode Title="WriteBit method" Url="html/5179fd8d-4017-7776-c57d-cd5d443a0bc2.htm" />
   <HelpKINode Title="WriteColor method" Url="html/8ff9c2c1-c24f-94e8-d7df-986e39e9665e.htm" />
   <HelpKINode Title="WriteError method" Url="html/bb7e23f3-6412-a774-473f-344e308303ea.htm" />
   <HelpKINode Title="WriteInNewLine method" Url="html/1e0e0d7b-b4a0-07da-75d6-8ef6f12f8bb4.htm" />
