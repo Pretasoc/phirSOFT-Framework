@@ -10,6 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedItems", "SharedItems"
 		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specifications", "Specifications", "{5AD3A5BD-9FB9-4072-BE31-AA267C2CB76B}"
+	ProjectSection(SolutionItems) = preProject
+		Flagstream.md = Flagstream.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

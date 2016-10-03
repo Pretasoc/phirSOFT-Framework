@@ -61,6 +61,12 @@
     <Compile Include="Graphs\ITreeNode.cs" />
     <Compile Include="Graphs\PreorderTree.cs" />
     <Compile Include="Graphs\TreeAlgorithm.cs" />
+    <Compile Include="IO\BitStreamWriter.cs" />
+    <Compile Include="IO\BufferState.cs" />
+    <Compile Include="IO\FlagStreamReader.cs" />
+    <Compile Include="IO\FlagStreamWriter.cs" />
+    <Compile Include="IO\HashStreamReader.cs" />
+    <Compile Include="IO\SpecialDirectories.cs" />
     <Compile Include="Math\DimensionMismatchException.cs" />
     <Compile Include="Math\Matrix.cs" />
     <Compile Include="Math\Range.cs" />

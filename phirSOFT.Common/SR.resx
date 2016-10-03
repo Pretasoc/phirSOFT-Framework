@@ -169,6 +169,7 @@ Original message: {0}</value>
   <data name="descr_XMLFormatterShort" xml:space="preserve">
     <value>XML file</value>
   </data>
+  <!-- ReSharper disable once NotOverriddenInSpecificCulture -->
   <data name="pr_phirSOFT" xml:space="preserve">
     <value>__          __   __   __   ___ ___ 
 |__) |__| | |__) /__` /  \ |__   |  

@@ -169,7 +169,7 @@ namespace phirSOFT.Common
         /// </summary>
         /// <param name="prompt">The message promted to user.</param>
         /// <param name="lower">The lowest allowed number.</param>
-        /// <param name="upper">The higthes alloed number.</param>
+        /// <param name="upper">The highest alloed number.</param>
         /// <returns>The number the user entered.</returns>
         /// <exception cref="OutOfMemoryException" />
         /// <exception cref="System.IO.IOException" />
