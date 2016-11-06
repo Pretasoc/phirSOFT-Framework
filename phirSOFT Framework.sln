@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specifications", "Specifica
 		Flagstream.md = Flagstream.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phirSOFT.Common.Controls.Tasks", "phirSOFT.Common.Controls.Tasks\phirSOFT.Common.Controls.Tasks.csproj", "{8836BC65-3898-451D-B69E-7C08F445271B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{7B991F9E-665F-46F8-A84F-971D603BC24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B991F9E-665F-46F8-A84F-971D603BC24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B991F9E-665F-46F8-A84F-971D603BC24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8836BC65-3898-451D-B69E-7C08F445271B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8836BC65-3898-451D-B69E-7C08F445271B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8836BC65-3898-451D-B69E-7C08F445271B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8836BC65-3898-451D-B69E-7C08F445271B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
