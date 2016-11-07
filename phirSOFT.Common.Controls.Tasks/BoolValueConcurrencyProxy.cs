@@ -9,6 +9,8 @@ namespace phirSOFT.Common.Controls.Tasks
         private bool _application;
         private bool _user;
 
+        
+
         public BoolValueConcurrencyProxy(bool user, bool application = false)
         {
             _user = user;

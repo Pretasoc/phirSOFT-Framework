@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
+using System.Windows.Forms.Integration;
 using JetBrains.Annotations;
 
 namespace phirSOFT.Common.Controls.Tasks
@@ -18,6 +22,14 @@ namespace phirSOFT.Common.Controls.Tasks
         private readonly BoolValueConcurrencyProxy _visible;
         private double _progress;
         private readonly object _progressCollectionLock = new object();
+        private readonly TaskOverviewWindow _taskWindow;
+
+        protected override void OnClick(EventArgs e)
+        {
+            base.OnClick(e);
+            ElementHost.EnableModelessKeyboardInterop(_taskWindow);
+            _taskWindow.Show();
+        }
 
         public ToolStripTaskHost()
         {
@@ -26,6 +38,14 @@ namespace phirSOFT.Common.Controls.Tasks
             _visible.ValueChanged += (sender, e) => base.Visible = _visible.Value;
 
             _progresses = new ProgressCollection(this);
+
+            _taskWindow = new TaskOverviewWindow {Tasks = {ItemsSource = _progresses}};
+        }
+
+        public void StartTask(Task task, IProgress<ProgressInfo> info)
+        {
+            task.ContinueWith(ct => Owner.BeginInvoke(new Action<IProgress<ProgressInfo>>(DoneProgress), info));
+            task.Start();
         }
 
         private Rectangle LabelRectangle => new Rectangle(102, 0, ContentRectangle.Width - 102, ContentRectangle.Height)
@@ -113,10 +133,13 @@ namespace phirSOFT.Common.Controls.Tasks
 
             if (progress == null) return;
 
+
+
             // Here we update only the overall progress.
             lock (_progressCollectionLock)
             {
                 Progress = _progresses.Sum(p => p.Info.PercentComplete)/_progresses.Count;
+      
             }
         }
 
@@ -142,20 +165,30 @@ namespace phirSOFT.Common.Controls.Tasks
         }
 
 
-        private class InternalProgressInfo : Progress<ProgressInfo>
+        internal class InternalProgressInfo : Progress<ProgressInfo>, INotifyPropertyChanged
         {
             public Task Task { get; set; }
 
             public ProgressInfo Info { get; private set; } = new ProgressInfo();
 
+            public event PropertyChangedEventHandler PropertyChanged;
+
             protected override void OnReport(ProgressInfo value)
             {
                 Info = value;
                 base.OnReport(value);
+                OnPropertyChanged(nameof(Info));
+            }
+
+            [NotifyPropertyChangedInvocator]
+            protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
             }
         }
 
-        private class ProgressCollection : Collection<InternalProgressInfo>
+        private class ProgressCollection : ObservableCollection<InternalProgressInfo>
         {
             private readonly ToolStripTaskHost _owner;
 
@@ -171,6 +204,7 @@ namespace phirSOFT.Common.Controls.Tasks
                     _owner._visible.Application = true;
 
                 _owner.ToolTipText = $"{Count} Tasks pending.";
+
             }
 
             protected override void RemoveItem(int index)
@@ -180,6 +214,8 @@ namespace phirSOFT.Common.Controls.Tasks
                     _owner._visible.Application = _owner.DesignMode;
 
                 _owner.ToolTipText = $"{Count} Tasks pending.";
+
+               
             }
 
             protected override void ClearItems()
@@ -189,7 +225,10 @@ namespace phirSOFT.Common.Controls.Tasks
                     _owner._visible.Application = _owner.DesignMode;
 
                 _owner.ToolTipText = $"{Count} Tasks pending.";
+
+               
             }
+
         }
     }
 }

@@ -34,6 +34,10 @@ namespace phirSOFT.Common.Controls.Tasks
                 _percentComplete = value;
             }
         }
+        //TODO: Fix this ugly workaround
+        public string PercentString => $"{PercentComplete:P}";
+
+        public string Title { get; set; }
 
         public ProgressState State { get; set; }
     }
