@@ -55,10 +55,13 @@
     </Compile>
     <Compile Include="ArrayTools.cs" />
     <Compile Include="ConsoleTools.cs" />
+    <Compile Include="Graphs\GraphAlgorithms.cs" />
     <Compile Include="Graphs\IBinaryTree.cs" />
     <Compile Include="Graphs\IBinaryTreeNode.cs" />
+    <Compile Include="Graphs\IGraph.cs" />
     <Compile Include="Graphs\ITree.cs" />
     <Compile Include="Graphs\ITreeNode.cs" />
+    <Compile Include="Graphs\NetGraph.cs" />
     <Compile Include="Graphs\PreorderTree.cs" />
     <Compile Include="Graphs\TreeAlgorithm.cs" />
     <Compile Include="IO\BitStreamWriter.cs" />
@@ -67,6 +70,7 @@
     <Compile Include="IO\FlagStreamWriter.cs" />
     <Compile Include="IO\HashStreamReader.cs" />
     <Compile Include="IO\SpecialDirectories.cs" />
+    <Compile Include="IPriorityQueue.cs" />
     <Compile Include="Math\DimensionMismatchException.cs" />
     <Compile Include="Math\Matrix.cs" />
     <Compile Include="Math\Range.cs" />

@@ -22,7 +22,7 @@ namespace phirSOFT.Common.Graphs
     /// </summary>
     /// <typeparam name="T">The type of data stored in the tree.</typeparam>
     [PublicAPI]
-    public interface ITree<T> : IEnumerable<ITreeNode<T>>
+    public interface ITree<T> : IGraph<T>, IEnumerable<ITreeNode<T>>
     {
         /// <summary>
         ///     Gets the root of the Tree.

@@ -27,7 +27,7 @@
                         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="{Binding Info.Title}" FontSize="12"/>
 
                         <ProgressBar Height="10" Grid.Row="1" Grid.Column="0" Value="{Binding Info.PercentComplete}" Maximum="1" HorizontalAlignment="Stretch"/>
-                        <Label Grid.Row="1" Grid.Column="1" Content="{Binding Info.PercentString}" FontSize="10"/>
+                        <Label DataContext="{Binding Path=Info}" Grid.Row="1" Grid.Column="1" Content="{Binding PercentComplete,StringFormat=P}" FontSize="10"/>
 
                     </Grid>
 
